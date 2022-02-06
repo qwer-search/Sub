@@ -351,3 +351,18 @@ CCTV：http://tv.cctv.com/live/m/
 牛视网在线免费网络电视直播平台 https://www.chaojidianshi.net/
 ```
 </details>
+
+<summary>壁纸网站</summary>
+
+```
+https://wallhaven.cc/
+http://www.netbian.com/
+https://desk.3gbizhi.com/
+https://desk.3gbizhi.com/
+http://wallpaperswide.com/
+https://www.dpm.org.cn/
+
+
+```
+
+</details>
