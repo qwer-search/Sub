@@ -1,6 +1,8 @@
 <details>
 <summary>Sonice</summary>
+  <details>
 [下载地址](http://tny.im/enVFi)  
+    </details>
 
   ## 星辰订阅
   
