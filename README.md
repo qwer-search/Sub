@@ -268,3 +268,86 @@ LotHelper： https://www.lothelper.com/cn
 KaKa接码平台：http://www.kakasms.com  
 ```
 </details>
+
+<details>
+<summary>影视网站</summary>
+  
+```
+Cokemv  https://cokemv.co/ 
+大师兄https://tv.ci/
+Sky4k :https://movie.sky4k.ga/
+555电影https://555dy.fun/
+奈菲影视https://www.nfmovies.com/
+奈飞星https://nfxhd.com/
+电影先生http://dianying.im/
+独播库： https://www.duboku.tv
+片库：https://www.mypianku.net
+奈飞中文电影站：https://yanetflix.com
+电影蜜蜂：https://www.dybee.tv
+剧嗨：https://www.juhi.cc
+555电影网：https://www.o8tv.com
+泥巴影院：https://www.mudvod.tv
+欧乐影院：https://olevod.com
+Tubitv：https://tubitv.com
+瓜子TV：https://guazitv.tv
+不求人https://movie.bqrdh.com/
+真不卡http://www.zhenbuka3.com/
+思乐https://www.4ltv.com/
+闪电https://www.ak1080.me/
+NO影视https://www.novipnoad.com/
+嗯哩嗯哩https://enlienli.com/
+看片王https://www.kpkuang.com/
+阿房影视https://bwl87.com/
+吼吼http://hoho.tv/
+爱剧网https://www.aitvplay.com/
+咪酷http://www.miku2.com/
+电影推荐https://www.mvcat.com/
+片吧https://www.pianba.net/
+LIBVIO  https://www.libvio.com/
+极品https://www.jpysvip.net/
+9亿https://www.9ehao.com/
+动漫网站主打动漫
+AGE  https://www.agefans.cc/
+Zzz    http://www.zzzfun.com/
+Acfun  https://www.acfun.cn/
+劈里啪啦http://pilipali.cc/
+在线电影网站
+4K屋http://www.kkkkwu.com
+4K鸭https://yanetflix.com
+8号影院http://www.8hyyw.com
+91看剧https://91kanju.com
+AGE漫https://www.agefans.
+ccCokemv,https://cokemv.cn
+km影視https://www.mkvdo.com    
+Libvio https://www.libvio.com
+No影視https://www.novipnoad.com
+V6电影版https://www.66s.cc
+片吧影院https://www.pianba.net
+外劇網https://www.waiju.cc/index.html
+全能影視,http://www.qnvod.net
+在線之家,https://www.zxzj.me
+低端影視,https://ddys.tv
+完美看看,https://www.wanmeikk.me
+奈飛星影視,https://nfxhd.com
+奈菲影視,https://www.nfmovies.com
+妮可動漫,http://www.nicotv.me/dongman
+泥巴影院,https://www.mudvod.tv
+阿房影視,https://bwl87.com
+南瓜電影,http://www.nangua55.com
+看看屋,https://www.kankanwu.com
+美劇天堂,https://www.aimeijutt.com
+美劇網,https://mjw21.com
+唐人街影院,https://www.tangrenjie.tv
+喝茶影視,http://aaqqs.com
+爱看美剧,https://www.akmeiju.com
+爱美剧,https://agmov.com
+爱迪影視,http://aidi.tv
+极品影視,https://www.jpysvip.net
+電影先生,http://www.dianyingim.com
+嗶嘀影視,https://www.mp4er.com
+影視飯TV,https://www.ysftv.com
+韓迷TV,https://www.hmtv.me
+CCTV：http://tv.cctv.com/live/m/
+牛视网在线免费网络电视直播平台 https://www.chaojidianshi.net/
+```
+</details>
