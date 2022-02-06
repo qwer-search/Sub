@@ -209,6 +209,57 @@ MailDrop：https://maildrop.cc/
 一次性臨時電子郵件：https://www.mohmal.com/zh
 EmailonDeck免费临时电子邮件：https://www.emailondeck.com/zh-cn/
 TrashSpam - 临时一次性电子邮件：https://trashspam.com/cn/
+```
+   ## 接码平台:
 
+```
+国外免费接码平台：
+https://receive-sms-free.net
+http://sms.sellaite.com
+https://ch.freephonenum.com
+https://smsreceivefree.com
+https://zh.mytrashmobile.com
+https://www.receive-sms-online.info
+https://receiveasms.com
+https://sms-online.co/receive-free-sms
+https://receive-sms.com
+http://receivefreesms.com/
+https://www.receivesmsonline.net/
+https://www.freeonlinephone.org/
+https://us-phone-number.com
+https://temporary-phone-number.com
+https://www.receivesms.co/
+https://www.smstibo.com/
+PingMe ：https://pingme.tel/receive-sms-online-cn/
+http://receivefreesms.net/
+http://receivesmsonline.in/
+https://sms-receive.net/
+https://www.receivesms.net/
+  
+国内免费接码平台：
+超级云短信： http://www.bfkdim.com/
+隐私短信：https://www.yinsiduanxin.com
+云短信： https://www.materialtools.com/
+在线短信：http://www.smszk.com/
+游客短信：https://www.visitorsms.com/cn
+免费接码：https://www.becmd.com/
+接码平台：http://www.114sim.com/ http://zg.114sim.com/
+云短信：https://www.materialtools.com
+免费接码：http://z-sms.com/
+云短信：https://www.zusms.com
+免费接码：https://www.shejiinn.com/
+云接码：https://yunjiema.net
+云验证码：https://www.cnwml.com
+免费接码：https://www.mffac.com
+接码科技免费平台：https://f4.work/
+主站http://jiema.tech/
+接码号：https://jiemahao.com
+免费接码： https://mianfeijiema.com/
+小鸟接码平台： http://www.xnsms.com/
+zero接码平台： https://xinghai.party/
+LotHelper： https://www.lothelper.com/cn
+免费接码平台： http://www.zsrq.net/
+免费接收短信验证码：https://www.we39.cn
+KaKa接码平台：http://www.kakasms.com  
 ```
 </details>
