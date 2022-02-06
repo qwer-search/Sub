@@ -144,5 +144,21 @@ http://gz.cloudtest.cc/
 http://gz2.cloudtest.cc/
 http://gy.cloudtest.cc/
 ```
+  
+  ## ip查询
+
+```
+https://whoer.net/zh
+https://www.whatismyip.com.tw/
+http://ip111.cn/
+https://ip.skk.moe/
+https://ip.sb/
+https://whatismyipaddress.com/
+https://api.evozi.com/ip
+https://whatleaks.com/
+https://ipv6-test.com/
+https://www.ip.cn/
+nstool.netease.com
+```
 
 </details>
