@@ -45,3 +45,49 @@ SonicePro://eyJuYW1lIjoi5riF6K6i6ZiFIiwiZGVmYXVsdCI6Imh0dHBzOlwvXC9zaGFyZXdoLmNo
   
 </details>
 
+<details>
+<summary>阅读Pro</summary>
+  下载地址：https://www.coolapk.com/apk/256030
+
+  ## namofree书源
+  
+```
+https://namofree.gitee.io/yuedu3/legado3_booksource_by_Namo.json
+```
+   ## namofree书源
+  
+```
+https://namofree.gitee.io/yuedu3/legado3_booksource_by_Namo.json
+```
+   ## 大佬书源
+  
+```
+
+https://e-c.coding.net/p/yicheng/d/YD/git/raw/master/sy.json
+
+```
+   ## 破冰书源
+  
+```
+
+https://pobing.lanzoui.com/b0cxk0w8b   密码：59bV
+```
+   ## haxc漫画源
+  
+```
+https://haxc.coding.net/p/booksrc/d/booksrc/git/raw/master/bookSource.json
+
+```
+   ## 糖果超甜女频书源
+  
+```
+https://tangguochaotian.coding.net/p/tangguoshuyuan1015/d/tangguo/git/raw/master/exportBookSource.json
+
+```
+   ## 关耳女频书源
+  
+```
+https://guaner001125.coding.net/p/coding-code-guide/d/booksources/git/raw/master/sources/guaner.json
+```
+  **再次提醒大家，选择1-2位大佬的一直追更就行，没必要全部导入。**
+</details>
