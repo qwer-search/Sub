@@ -14,14 +14,14 @@
   
 ```
 完整:
-https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml
-https://cdn.jsdelivr.net/gh/anaer/Sub@main/clash.yaml
-https://raw.fastgit.org/anaer/Sub/main/clash.yaml
+https://raw.githubusercontent.com/qwer-search/Sub/main/clash.yaml
+https://cdn.jsdelivr.net/gh/qwer-search/Sub@main/clash.yaml
+https://raw.fastgit.org/qwer-search/Sub/main/clash.yaml
 
 精简(自用):
-https://raw.githubusercontent.com/anaer/Sub/main/clash.yml
-https://cdn.jsdelivr.net/gh/anaer/Sub@main/clash.yml
-https://raw.fastgit.org/anaer/Sub/main/clash.yml
+https://raw.githubusercontent.com/qwer-search/Sub/main/clash.yml
+https://cdn.jsdelivr.net/gh/qwer-search/Sub@main/clash.yml
+https://raw.fastgit.org/qwer-search/Sub/main/clash.yml
 ```
 
 **订阅节点仅作学习交流用，用于查找资料，学习知识，不要做任何违法行为。所有资源均来自互联网，非盈利目的，仅供大家交流学习使用，出现违法问题概不负责。**
@@ -102,21 +102,47 @@ https://raw.fastgit.org/anaer/Sub/main/clash.yml
 ```
 https://fq.lonxin.net/
 https://hellopool.herokuapp.com/
-https://proxy.whuboy.com/
-https://baby-besitgift.com/
 http://111.229.220.110:5000/
 http://66.112.210.60.16clouds.com/
 http://149.248.8.112/
 https://free.kingfu.cf/
 https://proxy.yugogo.xyz/
+https://proxies.bihai.cf/
+https://proxypool-guest997.herokuapp.com/
+https://fq.lonxin.net/
+https://free886.herokuapp.com/
+http://8.135.91.61/
+https://sspool.herokuapp.com/
+https://us-proxypool.herokuapp.com/
+https://eu-proxypool.herokuapp.com/
+http://www.fuckgfw.tk/
+https://free.kingfu.cf/
+https://smart.zxcyec.top/
+http://158.101.93.192/
+https://hk.xhrzg2017.xyz/
+http://39.106.12.141:8081/
+http://213.188.195.234/
+http://149.248.8.112/
+http://wxshi.top:9090/
+https://proxy.whuboy.com/
+https://zua426.cf/
+http://23.105.206.34:9999/
 ```
 
 ## 在线订阅链接转换
 
 ```
+http://sub.feng666.tk/
+http://sub.bihai.cf/
+http://sub.saraphine.cf/
+http://subs.cycxtit.ga/  
 https://acl4ssr-sub.github.io/
+https://sub-web.wcc.best
+https://sub-beta.now.sh/
+https://api.nameless13.com/
+https://ytoo.now.sh/
+https://acl4ssr.netlify.app
 https://bianyuan.xyz/
-https://sub.90.ms/
 https://id9.cc/
 https://sub-web.netlify.app/
 https://sublink.dev/
@@ -124,5 +150,28 @@ https://www.con8.tk/
 https://subcon.dlj.tf/
 https://sub.v1.mk/
 ```
+## ip查询
 
+```
+https://whoer.net/zh
+https://www.whatismyip.com.tw/
+http://ip111.cn/
+https://ip.skk.moe/
+https://ip.sb/
+https://whatismyipaddress.com/
+https://api.evozi.com/ip
+https://whatleaks.com/
+https://ipv6-test.com/
+https://www.ip.cn/
+nstool.netease.com
+```
+  ## 在线测速网址(无需耗自身流量):
+
+```
+http://fjct.june628.ml
+http://fjcu.june628.ml
+http://gz.cloudtest.cc/
+http://gz2.cloudtest.cc/
+http://gy.cloudtest.cc/
+```
 </details>
