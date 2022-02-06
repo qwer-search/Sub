@@ -8,11 +8,11 @@
 <br/>
 
 <details>
-<summary>订阅说明</summary>
+<summary>订阅地址</summary>
 
 ```
 完整:
-https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml
+https://raw.githubusercontent.com/qwer-search/Sub/main/clash.yaml
 https://cdn.jsdelivr.net/gh/anaer/Sub@main/clash.yaml
 https://raw.fastgit.org/anaer/Sub/main/clash.yaml
 
