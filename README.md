@@ -8,8 +8,10 @@
 <br/>
 
 <details>
-<summary>订阅说明</summary>
+<summary>订阅链接</summary>
 
+  ## Clash
+  
 ```
 完整:
 https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml
@@ -92,32 +94,10 @@ https://raw.fastgit.org/anaer/Sub/main/clash.yml
 </details>
 <br/>
 
-<details>
-<summary>看看他们都干啥了</summary>
-<br/>
+<summary>资源站</summary>
 
-## 他们都 STAR 了
+## 节点池
 
-[![Stargazers repo roster for @anaer/Sub](https://reporoster.com/stars/anaer/Sub)](https://github.com/anaer/Sub/stargazers)
-
-## 他们都 FORK 了
-
-[![Forkers repo roster for @anaer/Sub](https://reporoster.com/forks/anaer/Sub)](https://github.com/anaer/Sub/network/members)
-
-## Stargazers over time
-
-[![Stargazers over time](https://starchart.cc/anaer/Sub.svg)](https://starchart.cc/anaer/Sub)
-
-</details>
-
-<br/>
-
-<details>
-<summary>其他</summary>
-
-## 资源池
-
-[Free Proxies](https://duckduckgo.com/?q=free+proxies+%E7%9B%AE%E5%89%8D%E5%85%B1%E6%9C%89%E6%8A%93%E5%8F%96%E6%BA%90&ia=web)
 
 ```
 https://fq.lonxin.net/
