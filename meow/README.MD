@@ -1,9 +1,12 @@
-## 猫影视TV自用配置
+<details>
+<summary>Sonice</summary>
+[下载地址](http://tny.im/enVFi)  
 
-[猫影视TV](https://cn.bing.com/search?q=%E7%8C%AB%E5%BD%B1%E8%A7%86TV&ensearch=1)
+  ## 星辰订阅
+  
+```
+SonicePro://eyJuYW1lIjoi5pif6L6wIiwiZGVmYXVsdCI6Imh0dHA6XC9cL2pzb255dW4ueHl6XC9hcGlcL3YzXC9maWxlXC9nZXRcLzI5MlwvanNvbi5qc29uP3NpZ249Z3NxenlVMVdmcnhlblpzVnJBVDNRTThKUms1cjQ1NXkwMHpfWUYtREhxTSUzRCUzQTAiLCJzcGFyZSI6Imh0dHBzOlwvXC9zaGFyZXdoLmNoYW94aW5nLmNvbVwvc2hhcmVcLzMyMWM2NjUxLTZkOGItNDk3OC1hYjA0LTc2YjUwYTkzMDk4ZT90PTMifQ==
+```
+  
+</details>
 
-配置链接: https://raw.fastgit.org/anaer/Sub/main/meow/meow.json
-
-短链接: http://gg.gg/meow-json
-
-主要自用, 随缘更新
