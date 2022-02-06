@@ -179,4 +179,36 @@ http://gz.cloudtest.cc/
 http://gz2.cloudtest.cc/
 http://gy.cloudtest.cc/
 ```
+   ## 临时邮箱:
+
+```
+https://smailpro.com/advanced
+https://tempmail.plus/zh/
+24小时邮箱：http://24mail.chacuo.net
+60分钟邮箱：https://www.guerrillamail.com/zh/
+10 分钟邮箱：https://linshiyouxiang.net/
+10 分钟邮箱：http://www.bccto.me/
+10 分钟邮箱：https://temp-mail.org/zh/
+10 分钟邮箱：https://10minutemail.net/?lang=zh-cn
+10 分钟邮箱：http://10minutemail.com/10MinuteMail/index.html
+10 分钟邮箱：https://9em.org/
+30分钟邮箱： https://shorttimemail.com/zh-Hans
+60 分钟邮箱：https://www.moakt.com/zh/mail
+60 分钟邮箱：http://www.nowmymail.com
+60 分钟邮箱：http://www.incognitomail.com/
+24 小时邮箱：http://24mail.chacuo.net/
+5日邮箱：http://www.yopmail.com/zh/
+最多一个月：http://www.jetable.org/zh/index
+时间不知：http://www.mailinator.com
+MailDrop：https://maildrop.cc/
+匿名发信：https://eskiimo.com/
+大概24小时：https://tempmail.altmails.com
+小鸟临时邮箱：http://www.5-mail.com
+10 分钟一次性电子邮件：https://10minemail.com/zh/
+10分钟临时一次性电子邮件：https://www.crazymailing.com/zh/
+一次性臨時電子郵件：https://www.mohmal.com/zh
+EmailonDeck免费临时电子邮件：https://www.emailondeck.com/zh-cn/
+TrashSpam - 临时一次性电子邮件：https://trashspam.com/cn/
+
+```
 </details>
