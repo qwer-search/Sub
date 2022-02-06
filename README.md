@@ -213,7 +213,7 @@ TrashSpam - 临时一次性电子邮件：https://trashspam.com/cn/
    ## 接码平台:
 
 ```
-国外免费接码平台：
+###国外免费接码平台：
 https://www.storytrain.info/
 https://smsreceivefree.com/country/usa
 https://yunjiema.net/
@@ -239,9 +239,8 @@ PingMe ：https://pingme.tel/receive-sms-online-cn/
 http://receivefreesms.net/
 http://receivesmsonline.in/
 https://sms-receive.net/
-https://www.receivesms.net/
-  
-国内免费接码平台：
+https://www.receivesms.net/ 
+###国内免费接码平台：
 超级云短信： http://www.bfkdim.com/
 隐私短信：https://www.yinsiduanxin.com
 云短信： https://www.materialtools.com/
