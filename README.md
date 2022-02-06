@@ -214,6 +214,11 @@ TrashSpam - 临时一次性电子邮件：https://trashspam.com/cn/
 
 ```
 国外免费接码平台：
+https://www.storytrain.info/
+https://smsreceivefree.com/country/usa
+https://yunjiema.net/
+https://mianfeijiema.com/
+https://www.receivesmsonline.net/  
 https://receive-sms-free.net
 http://sms.sellaite.com
 https://ch.freephonenum.com
