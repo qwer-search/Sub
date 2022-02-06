@@ -126,7 +126,10 @@ http://23.105.206.34:9999/
 ```
 https://acl4ssr-sub.github.io/
 https://bianyuan.xyz/
-https://sub.90.ms/
+https://sub.feng666.tk/
+http://sub.saraphine.cf/
+http://subs.cycxtit/ga/
+http://sub.bihai.cf/
 https://id9.cc/
 https://sub-web.netlify.app/
 https://sublink.dev/
