@@ -93,7 +93,7 @@ https://raw.fastgit.org/anaer/Sub/main/clash.yml
 <br/>
 
 <details>
-<summary>节点池</summary>
+<summary>资源站</summary>
 <br/>
 ## 资源池
 
