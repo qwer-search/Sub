@@ -134,5 +134,15 @@ https://www.con8.tk/
 https://subcon.dlj.tf/
 https://sub.v1.mk/
 ```
+  
+## 在线测速网址(无需耗自身流量)
+
+```
+http://fjct.june628.ml
+http://fjcu.june628.ml
+http://gz.cloudtest.cc/
+http://gz2.cloudtest.cc/
+http://gy.cloudtest.cc/
+```
 
 </details>
