@@ -95,40 +95,28 @@ https://raw.fastgit.org/anaer/Sub/main/clash.yml
 <details>
 <summary>看看他们都干啥了</summary>
 <br/>
-
-## 他们都 STAR 了
-
-[![Stargazers repo roster for @anaer/Sub](https://reporoster.com/stars/anaer/Sub)](https://github.com/anaer/Sub/stargazers)
-
-## 他们都 FORK 了
-
-[![Forkers repo roster for @anaer/Sub](https://reporoster.com/forks/anaer/Sub)](https://github.com/anaer/Sub/network/members)
-
-## Stargazers over time
-
-[![Stargazers over time](https://starchart.cc/anaer/Sub.svg)](https://starchart.cc/anaer/Sub)
-
-</details>
-
-<br/>
-
-<details>
-<summary>其他</summary>
-
 ## 资源池
 
-[Free Proxies](https://duckduckgo.com/?q=free+proxies+%E7%9B%AE%E5%89%8D%E5%85%B1%E6%9C%89%E6%8A%93%E5%8F%96%E6%BA%90&ia=web)
-
 ```
+https://proxies.bihai.cf/
+https://sspool.nl/
+https://proxypool-guest997.herokuapp.com/
 https://fq.lonxin.net/
-https://hellopool.herokuapp.com/
-https://proxy.whuboy.com/
-https://baby-besitgift.com/
-http://111.229.220.110:5000/
-http://66.112.210.60.16clouds.com/
-http://149.248.8.112/
+http://8.135.91.61/
+https://sspool.herokuapp.com/
+https://us-proxypool.herokuapp.com/
+https://eu-proxypool.herokuapp.com/
+http://www.fuckgfw.tk/
 https://free.kingfu.cf/
-https://proxy.yugogo.xyz/
+https://smart.zxcyec.top/
+http://158.101.93.192/
+https://hk.xhrzg2017.xyz/
+http://39.106.12.141:8081/
+http://149.248.8.112/
+http://104.128.81.6:8080/
+http://wxshi.top:9090/
+https://zua426.cf/
+http://23.105.206.34:9999/
 ```
 
 ## 在线订阅链接转换
