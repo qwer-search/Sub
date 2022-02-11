@@ -5,1054 +5,295 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"_FR_法国_高速_46","server":"149.202.82.172","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_FR_法国_高速_49","server":"149.202.82.172","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"_US_美国_高速_55","server":"167.88.63.28","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_FR_法国_高速_56","server":"149.202.82.172","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"_FR_法国_高速_58","server":"149.202.82.172","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"_FR_法国_高速_59","server":"149.202.82.172","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"_FR_法国_高速_63","server":"149.202.82.172","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"_FR_法国_高速_64","server":"149.202.82.172","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_GB_英国_高速_65","server":"172.99.190.39","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"_GB_英国_高速_73","server":"172.99.190.39","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"_FR_法国_高速_75","server":"149.202.82.172","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"_GB_英国_高速_77","server":"172.99.190.39","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"_GB_英国_高速_78","server":"172.99.190.39","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"_CA_加拿大_高速_79","server":"198.57.27.152","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"_FR_法国_高速_81","server":"149.202.82.172","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"_GB_英国_高速_82","server":"172.99.190.39","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"_CA_加拿大_高速_90","server":"134.195.196.81","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"_FR_法国_高速_91","server":"149.202.82.172","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"_FR_法国_高速_92","server":"149.202.82.172","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"_GB_英国_高速_94","server":"172.99.190.39","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_CA_加拿大_高速_96","server":"134.195.196.227","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"_GB_英国_高速_98","server":"172.99.190.39","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"_CA_加拿大_高速_103","server":"198.57.27.152","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"_GB_英国_高速_104","server":"172.99.190.39","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"_FR_法国_高速_105","server":"149.202.82.172","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"_FR_法国_高速_106","server":"149.202.82.172","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"_FR_法国_高速_109","server":"149.202.82.172","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"_FR_法国_高速_110","server":"149.202.82.172","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"_FR_法国_高速_114","server":"149.202.82.172","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"_GB_英国_高速_118","server":"172.99.190.205","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"_GB_英国_高速_123","server":"172.99.190.39","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"_GB_英国_高速_124","server":"172.99.190.39","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"_FR_法国_高速_125","server":"149.202.82.172","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_FR_法国_高速_130","server":"149.202.82.172","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"_FR_法国_高速_131","server":"145.239.1.100","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_US_美国_高速_136","server":"38.121.43.71","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"_FR_法国_高速_138","server":"149.202.82.172","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"_CA_加拿大_高速_159","server":"134.195.196.81","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"_CA_加拿大_高速_160","server":"198.57.27.152","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"_GB_英国_高速_168","server":"172.99.190.39","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_GB_英国_高速_169","server":"172.99.190.39","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_US_美国_高速_177","server":"167.88.63.28","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_FR_法国_高速_178","server":"145.239.1.100","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"_CA_加拿大_高速_180","server":"198.57.27.152","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"_GB_英国_高速_182","server":"172.99.190.39","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"_FR_法国_高速_187","server":"145.239.1.100","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"_GB_英国_高速_206","server":"172.99.190.39","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"_US_美国_高速_207","server":"38.121.43.71","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"_CA_加拿大_高速_222","server":"198.57.27.152","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"_GB_英国_高速_227","server":"172.99.190.39","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"_FR_法国_高速_233","server":"149.202.82.172","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_FR_法国_高速_235","server":"145.239.1.100","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"_FR_法国_高速_246","server":"149.202.82.172","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"_FR_法国_高速_251","server":"149.202.82.172","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"_FR_法国_高速_264","server":"145.239.1.100","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"_FR_法国_高速_270","server":"145.239.1.100","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"_FR_法国_高速_276","server":"149.202.82.172","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"_CA_加拿大_高速_279","server":"134.195.196.81","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"_FR_法国_高速_287","server":"149.202.82.172","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"_CA_加拿大_高速_289","server":"134.195.196.227","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"_FR_法国_高速_300","server":"145.239.1.100","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"_FR_法国_高速_301","server":"145.239.1.100","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"_FR_法国_高速_302","server":"145.239.1.100","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"_PL_波兰_高速_304","server":"194.15.196.106","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"_GB_英国_高速_312","server":"172.99.190.39","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"_CA_加拿大_高速_315","server":"198.57.27.152","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"_CA_加拿大_高速_318","server":"134.195.196.227","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"_FR_法国_高速_321","server":"145.239.1.100","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"_FR_法国_高速_323","server":"145.239.1.100","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"_FR_法国_高速_324","server":"145.239.1.100","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"_FR_法国_高速_325","server":"145.239.1.100","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"_CA_加拿大_高速_328","server":"198.57.27.184","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"_CA_加拿大_高速_331","server":"198.57.27.152","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"_GB_英国_高速_332","server":"172.99.190.205","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"_FR_法国_高速_336","server":"145.239.1.100","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"_FR_法国_高速_342","server":"145.239.1.100","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"_FR_法国_高速_349","server":"145.239.1.100","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_CA_加拿大_高速_356","server":"134.195.196.227","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_GB_英国_高速_358","server":"172.99.190.205","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_FR_法国_高速_361","server":"145.239.1.100","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"_CA_加拿大_高速_362","server":"198.57.27.152","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"_CA_加拿大_高速_365","server":"198.57.27.241","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"_FR_法国_高速_377","server":"145.239.1.100","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"_CA_加拿大_高速_379","server":"134.195.196.81","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"_US_美国_高速_384","server":"38.68.134.23","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"_CA_加拿大_高速_386","server":"198.57.27.241","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"_CA_加拿大_高速_390","server":"198.57.27.241","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"_GB_英国_高速_391","server":"172.99.190.39","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"_CA_加拿大_高速_393","server":"198.57.27.152","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"_FR_法国_高速_402","server":"145.239.1.100","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"_CA_加拿大_高速_405","server":"134.195.196.81","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"_GB_英国_高速_411","server":"172.99.190.39","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"_CA_加拿大_高速_420","server":"198.57.27.184","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"_FR_法国_高速_425","server":"145.239.1.100","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"_US_美国_高速_434","server":"167.88.63.28","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"_US_美国_高速_440","server":"38.91.100.134","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"_CA_加拿大_高速_441","server":"198.57.27.152","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"_FR_法国_高速_442","server":"145.239.1.100","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"_CA_加拿大_高速_445","server":"198.57.27.184","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"_GB_英国_高速_459","server":"172.99.190.205","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"_GB_英国_高速_460","server":"172.99.190.39","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"_PL_波兰_高速_464","server":"194.15.196.106","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"_GB_英国_高速_469","server":"172.99.190.39","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"_CA_加拿大_高速_480","server":"198.57.27.241","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"_DE_德国_高速_484","server":"193.108.118.36","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"_GB_英国_高速_486","server":"172.99.190.39","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"_FR_法国_高速_492","server":"149.202.82.172","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_US_美国_高速_504","server":"38.91.100.134","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"_CA_加拿大_高速_528","server":"198.57.27.152","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_CA_加拿大_高速_530","server":"198.57.27.152","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_GB_英国_高速_539","server":"172.99.190.39","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_CA_加拿大_高速_549","server":"198.57.27.184","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_FR_法国_高速_563","server":"145.239.1.100","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"_FR_法国_高速_583","server":"145.239.1.100","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"_PL_波兰_高速_585","server":"194.15.196.106","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_DE_德国_高速_586","server":"193.108.118.36","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"_FR_法国_高速_589","server":"145.239.1.100","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"_US_美国_高速_591","server":"38.91.100.134","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"_GB_英国_高速_592","server":"172.99.190.205","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_GB_英国_高速_600","server":"172.99.190.39","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"_US_美国_高速_604","server":"38.91.100.134","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_FR_法国_高速_609","server":"149.202.82.172","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"_FR_法国_高速_616","server":"149.202.82.172","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"_US_美国_高速_640","server":"167.88.63.61","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"_US_美国_高速_642","server":"167.88.63.61","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"_US_美国_高速_645","server":"167.88.63.61","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_US_美国_高速_647","server":"167.88.63.61","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_US_美国_高速_649","server":"167.88.63.61","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"_IN_印度_高速_658","server":"45.79.121.166","port":5000,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_IN_印度_高速_661","server":"45.79.121.166","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"_IN_印度_高速_663","server":"45.79.121.166","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_IN_印度_高速_664","server":"45.79.121.166","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_IN_印度_高速_667","server":"45.79.121.166","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"_IN_印度_高速_668","server":"45.79.121.166","port":7001,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"_IN_印度_高速_669","server":"45.79.121.166","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"_IN_印度_高速_671","server":"45.79.121.166","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"_IN_印度_高速_672","server":"45.79.121.166","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"_IN_印度_高速_673","server":"45.79.121.166","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"_IN_印度_高速_674","server":"45.79.121.166","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"_IN_印度_高速_677","server":"45.79.121.166","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"_IN_印度_高速_678","server":"45.79.121.166","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"_IN_印度_高速_679","server":"45.79.121.166","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"_IN_印度_高速_680","server":"45.79.121.166","port":8888,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"_IN_印度_高速_681","server":"45.79.121.166","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"_US_美国_高速_891","server":"38.114.114.49","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"由atappviper搭建_🇺🇸_US_美国_1","server":"anzhuo-hezi1.herokuapp.com","port":443,"type":"vmess","uuid":"05b8441f-3c76-4af1-b5b9-dd60d27e5ef8","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess"}}
+  - {"name":"由atappviper搭建_🇮🇪_IE_爱尔兰_2","server":"anzhuo-hezi2.herokuapp.com","port":443,"type":"vmess","uuid":"b7b856c9-2233-4d00-932d-84855a24d17e","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/b7b856c9-2233-4d00-932d-84855a24d17e-vmess"}}
+  - {"name":"由atappviper搜集_🇺🇸_US_美国_3","server":"20.24.66.67","port":52332,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"由atappviper搜集_🇯🇵_JP_日本_4","server":"lin-jp.tgsc.xyz","port":443,"type":"vmess","uuid":"57c95541-5147-4dae-81d0-660cc6b25e9b","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/FNRWR48K"}}
+  - {"name":"由atappviper搜集_🇺🇸_US_美国_5","server":"167.88.62.34","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"由atappviper搜集_🇸🇬_SG_新加坡_6","server":"dynamic-sg2b.obfs.xyz","port":443,"type":"vmess","uuid":"273efd3d-3273-475c-b538-86bfed0030ff","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/fastssh"}}
+  - {"name":"由atappviper搜集_🇺🇸_US_美国_7","server":"dynamic-us2b.obfs.xyz","port":443,"type":"vmess","uuid":"21bec0f2-fb1b-480d-85b2-6151fa89fae8","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/fastssh"}}
+  - {"name":"由atappviper搜集_🇿🇦_ZA_南非_8","server":"66yun.ckry888.top","port":443,"type":"vmess","uuid":"15db073b-98a5-4297-9263-b21321759159","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/oqsavws?ed=2048","host":"66yun.ckry888.top"}}
+  - {"name":"由atappviper搜集_9","server":"els100.jslist.tk","port":8080,"type":"vmess","uuid":"e06987e7-a88e-42c2-ae5b-427c627d1954","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/wo.png","host":"els100.jslist.tk"}}
+  - {"name":"由atappviper搜集_🇺🇸_US_美国_10
+    ","server":"oioooo.tk","port":443,"type":"trojan","password":"b855d9a1-c5fb-4613-8cb9-7bbc58fcccb4"}
+  - {"name":"由atappviper搜集_11","server":"sg-aws.licom.ga","port":35047,"type":"vmess","uuid":"ac55ffd3-53bc-43a9-845a-96910c037602","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/lilicloud.tk"}}
+  - {"name":"由atappviper搜集_🇨🇳_CN_中国_12
+    ","server":"gzcm.rymv2rayssl.xyz","port":44608,"type":"trojan","password":"52911320-db53-40ff-917a-e5de797c28e7"}
+  - {"name":"由atappviper搜集_🇺🇸_US_美国_13
+    ","server":"209.141.35.147","port":48919,"type":"trojan","password":"52911320-db53-40ff-917a-e5de797c28e7"}
+  - {"name":"由atappviper搜集_🇷🇺_RU_俄罗斯联邦_14
+    ","server":"sg.xxioixx.com","port":443,"type":"trojan","password":"93bda856-e793-39cd-9a53-a113a80d68a0"}
+  - {"name":"由atappviper搜集_🇯🇵_JP_日本_15
+    ","server":"106.180.225.69","port":1443,"type":"trojan","password":"7x42LetRa0"}
+  - {"name":"由appviper搜集_1","server":"vincent-jackson2022.ga","port":443,"type":"vmess","uuid":"5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/The-Great-Awakening_vws","host":"vincent-jackson2022.ga"}}
+  - {"name":"由appviper搜集_2
+    ","server":"vincent-jackson2021.ga","port":443,"type":"trojan","password":"a2c47c59-a4c8-4d66-9456-966ba37dedcc"}
+  - {"name":"由appviper搜集_3","server":"vincent-jackson2021.ga","port":443,"type":"vmess","uuid":"a2c47c59-a4c8-4d66-9456-966ba37dedcc","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/The-Great-Awakening_vws","host":"vincent-jackson2021.ga"}}
+  - {"name":"由appviper搜集_🇺🇸_US_美国_4
+    ","server":"vincent-jackson2022.ml","port":443,"type":"trojan","password":"188741f2-1f14-43cb-be7a-1200a9f4332e"}
+  - {"name":"由appviper搜集_🇺🇸_US_美国_5","server":"vincent-jackson2022.ml","port":443,"type":"vmess","uuid":"188741f2-1f14-43cb-be7a-1200a9f4332e","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/The-Great-Awakening_vws","host":"vincent-jackson2022.ml"}}
+  - {"name":"由appviper搜集_🇭🇰_HK_香港_6","server":"104.208.64.48","port":52329,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"由appviper搜集_🇫🇷_FR_法国_7","server":"149.202.82.172","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"由appviper搜集_🇭🇰_HK_香港_8","server":"104.208.64.48","port":52226,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"由appviper搜集_🇱🇻_LV_拉脱维亚_9","server":"lv.tgproxy.wtf","port":2052,"type":"vmess","uuid":"48e0a875-abf7-4fbf-930b-0a3ad8004cbb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi"}}
+  - {"name":"由appviper搜集_🇫🇷_FR_法国_10","server":"ovh.fr.tgproxy.wtf","port":8888,"type":"vmess","uuid":"48e0a875-abf7-4fbf-930b-0a3ad8004cbb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi"}}
+  - {"name":"由appviper搜集_🇱🇺_LU_卢森堡_11","server":"buyvm.lu.tgproxy.wtf","port":2052,"type":"vmess","uuid":"48e0a875-abf7-4fbf-930b-0a3ad8004cbb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi"}}
+  - {"name":"由appviper搜集_🇨🇳_CN_中国_12","server":"120.197.85.73","port":2065,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"708de56e-ada7-4bab-86ce-dadd4beabd62"}
+  - {"name":"高速【中转】_🇨🇳_CN_中国_1","server":"jm.neko.dior.bar","port":49900,"type":"vmess","uuid":"28aff376-c836-4f20-af14-b30ba139be28","alterId":1,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","host":"pull.free.video.10010.com"}}
+  - {"name":"由atappsviper搜集_🇭🇰_JP_香港_1
+    ","server":"azhk.insnow.xyz","port":9903,"type":"trojan","password":"b0b540ba-4f07-44da-9941-d2ca309a11cd","sni":"azhk.insnow.xyz"}
+  - {"name":"由atappsviper搜集_🇭🇰_HK_香港_2
+    ","server":"hk1.insnow.xyz","port":9901,"type":"trojan","password":"b0b540ba-4f07-44da-9941-d2ca309a11cd","sni":"hk1.insnow.xyz"}
+  - {"name":"由appviper搜集_🇭🇰_HK_香港_1
+    ","server":"azhk.insnow.xyz","port":9906,"type":"trojan","password":"b0b540ba-4f07-44da-9941-d2ca309a11cd","sni":"azhk.insnow.xyz"}
+  - {"name":"由appviper搜集_🇭🇰_HK_香港_2
+    ","server":"azhk.insnow.xyz","port":9904,"type":"trojan","password":"b0b540ba-4f07-44da-9941-d2ca309a11cd","sni":"azhk.insnow.xyz"}
+  - {"name":"由appviper搜集_🇺🇸_US_美国_1","server":"65.49.216.228","port":41510,"type":"vmess","uuid":"823840ec-b540-4505-a570-0a99ce709e05","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"由appviper搜集_🇺🇸_US_美国_2","server":"www.xingog551.xyz","port":446,"type":"vmess","uuid":"624713e9-6f53-4f82-d46b-09568b18109d","alterId":0,"cipher":"auto","tls":true,"network":"tcp"}
+  - {"name":"由appviper搜集_🇺🇸_US_美国_1","server":"132.226.114.215","port":4231,"type":"vmess","uuid":"b55712c1-75f0-4495-bac8-68b7789eab18","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - _FR_法国_高速_46
-      - _FR_法国_高速_49
-      - _US_美国_高速_55
-      - _FR_法国_高速_56
-      - _FR_法国_高速_58
-      - _FR_法国_高速_59
-      - _FR_法国_高速_63
-      - _FR_法国_高速_64
-      - _GB_英国_高速_65
-      - _GB_英国_高速_73
-      - _FR_法国_高速_75
-      - _GB_英国_高速_77
-      - _GB_英国_高速_78
-      - _CA_加拿大_高速_79
-      - _FR_法国_高速_81
-      - _GB_英国_高速_82
-      - _CA_加拿大_高速_90
-      - _FR_法国_高速_91
-      - _FR_法国_高速_92
-      - _GB_英国_高速_94
-      - _CA_加拿大_高速_96
-      - _GB_英国_高速_98
-      - _CA_加拿大_高速_103
-      - _GB_英国_高速_104
-      - _FR_法国_高速_105
-      - _FR_法国_高速_106
-      - _FR_法国_高速_109
-      - _FR_法国_高速_110
-      - _FR_法国_高速_114
-      - _GB_英国_高速_118
-      - _GB_英国_高速_123
-      - _GB_英国_高速_124
-      - _FR_法国_高速_125
-      - _FR_法国_高速_130
-      - _FR_法国_高速_131
-      - _US_美国_高速_136
-      - _FR_法国_高速_138
-      - _CA_加拿大_高速_159
-      - _CA_加拿大_高速_160
-      - _GB_英国_高速_168
-      - _GB_英国_高速_169
-      - _US_美国_高速_177
-      - _FR_法国_高速_178
-      - _CA_加拿大_高速_180
-      - _GB_英国_高速_182
-      - _FR_法国_高速_187
-      - _GB_英国_高速_206
-      - _US_美国_高速_207
-      - _CA_加拿大_高速_222
-      - _GB_英国_高速_227
-      - _FR_法国_高速_233
-      - _FR_法国_高速_235
-      - _FR_法国_高速_246
-      - _FR_法国_高速_251
-      - _FR_法国_高速_264
-      - _FR_法国_高速_270
-      - _FR_法国_高速_276
-      - _CA_加拿大_高速_279
-      - _FR_法国_高速_287
-      - _CA_加拿大_高速_289
-      - _FR_法国_高速_300
-      - _FR_法国_高速_301
-      - _FR_法国_高速_302
-      - _PL_波兰_高速_304
-      - _GB_英国_高速_312
-      - _CA_加拿大_高速_315
-      - _CA_加拿大_高速_318
-      - _FR_法国_高速_321
-      - _FR_法国_高速_323
-      - _FR_法国_高速_324
-      - _FR_法国_高速_325
-      - _CA_加拿大_高速_328
-      - _CA_加拿大_高速_331
-      - _GB_英国_高速_332
-      - _FR_法国_高速_336
-      - _FR_法国_高速_342
-      - _FR_法国_高速_349
-      - _CA_加拿大_高速_356
-      - _GB_英国_高速_358
-      - _FR_法国_高速_361
-      - _CA_加拿大_高速_362
-      - _CA_加拿大_高速_365
-      - _FR_法国_高速_377
-      - _CA_加拿大_高速_379
-      - _US_美国_高速_384
-      - _CA_加拿大_高速_386
-      - _CA_加拿大_高速_390
-      - _GB_英国_高速_391
-      - _CA_加拿大_高速_393
-      - _FR_法国_高速_402
-      - _CA_加拿大_高速_405
-      - _GB_英国_高速_411
-      - _CA_加拿大_高速_420
-      - _FR_法国_高速_425
-      - _US_美国_高速_434
-      - _US_美国_高速_440
-      - _CA_加拿大_高速_441
-      - _FR_法国_高速_442
-      - _CA_加拿大_高速_445
-      - _GB_英国_高速_459
-      - _GB_英国_高速_460
-      - _PL_波兰_高速_464
-      - _GB_英国_高速_469
-      - _CA_加拿大_高速_480
-      - _DE_德国_高速_484
-      - _GB_英国_高速_486
-      - _FR_法国_高速_492
-      - _US_美国_高速_504
-      - _CA_加拿大_高速_528
-      - _CA_加拿大_高速_530
-      - _GB_英国_高速_539
-      - _CA_加拿大_高速_549
-      - _FR_法国_高速_563
-      - _FR_法国_高速_583
-      - _PL_波兰_高速_585
-      - _DE_德国_高速_586
-      - _FR_法国_高速_589
-      - _US_美国_高速_591
-      - _GB_英国_高速_592
-      - _GB_英国_高速_600
-      - _US_美国_高速_604
-      - _FR_法国_高速_609
-      - _FR_法国_高速_616
-      - _US_美国_高速_640
-      - _US_美国_高速_642
-      - _US_美国_高速_645
-      - _US_美国_高速_647
-      - _US_美国_高速_649
-      - _IN_印度_高速_658
-      - _IN_印度_高速_661
-      - _IN_印度_高速_663
-      - _IN_印度_高速_664
-      - _IN_印度_高速_667
-      - _IN_印度_高速_668
-      - _IN_印度_高速_669
-      - _IN_印度_高速_671
-      - _IN_印度_高速_672
-      - _IN_印度_高速_673
-      - _IN_印度_高速_674
-      - _IN_印度_高速_677
-      - _IN_印度_高速_678
-      - _IN_印度_高速_679
-      - _IN_印度_高速_680
-      - _IN_印度_高速_681
-      - _US_美国_高速_891
+      - 由atappviper搭建_🇺🇸_US_美国_1
+      - 由atappviper搭建_🇮🇪_IE_爱尔兰_2
+      - 由atappviper搜集_🇺🇸_US_美国_3
+      - 由atappviper搜集_🇯🇵_JP_日本_4
+      - 由atappviper搜集_🇺🇸_US_美国_5
+      - 由atappviper搜集_🇸🇬_SG_新加坡_6
+      - 由atappviper搜集_🇺🇸_US_美国_7
+      - 由atappviper搜集_🇿🇦_ZA_南非_8
+      - 由atappviper搜集_9
+      - 由atappviper搜集_🇺🇸_US_美国_10
+      - 由atappviper搜集_11
+      - 由atappviper搜集_🇨🇳_CN_中国_12
+      - 由atappviper搜集_🇺🇸_US_美国_13
+      - 由atappviper搜集_🇷🇺_RU_俄罗斯联邦_14
+      - 由atappviper搜集_🇯🇵_JP_日本_15
+      - 由appviper搜集_1
+      - 由appviper搜集_2
+      - 由appviper搜集_3
+      - 由appviper搜集_🇺🇸_US_美国_4
+      - 由appviper搜集_🇺🇸_US_美国_5
+      - 由appviper搜集_🇭🇰_HK_香港_6
+      - 由appviper搜集_🇫🇷_FR_法国_7
+      - 由appviper搜集_🇭🇰_HK_香港_8
+      - 由appviper搜集_🇱🇻_LV_拉脱维亚_9
+      - 由appviper搜集_🇫🇷_FR_法国_10
+      - 由appviper搜集_🇱🇺_LU_卢森堡_11
+      - 由appviper搜集_🇨🇳_CN_中国_12
+      - 高速【中转】_🇨🇳_CN_中国_1
+      - 由atappsviper搜集_🇭🇰_JP_香港_1
+      - 由atappsviper搜集_🇭🇰_HK_香港_2
+      - 由appviper搜集_🇭🇰_HK_香港_1
+      - 由appviper搜集_🇭🇰_HK_香港_2
+      - 由appviper搜集_🇺🇸_US_美国_1
+      - 由appviper搜集_🇺🇸_US_美国_2
+      - 由appviper搜集_🇺🇸_US_美国_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - _FR_法国_高速_46
-      - _FR_法国_高速_49
-      - _US_美国_高速_55
-      - _FR_法国_高速_56
-      - _FR_法国_高速_58
-      - _FR_法国_高速_59
-      - _FR_法国_高速_63
-      - _FR_法国_高速_64
-      - _GB_英国_高速_65
-      - _GB_英国_高速_73
-      - _FR_法国_高速_75
-      - _GB_英国_高速_77
-      - _GB_英国_高速_78
-      - _CA_加拿大_高速_79
-      - _FR_法国_高速_81
-      - _GB_英国_高速_82
-      - _CA_加拿大_高速_90
-      - _FR_法国_高速_91
-      - _FR_法国_高速_92
-      - _GB_英国_高速_94
-      - _CA_加拿大_高速_96
-      - _GB_英国_高速_98
-      - _CA_加拿大_高速_103
-      - _GB_英国_高速_104
-      - _FR_法国_高速_105
-      - _FR_法国_高速_106
-      - _FR_法国_高速_109
-      - _FR_法国_高速_110
-      - _FR_法国_高速_114
-      - _GB_英国_高速_118
-      - _GB_英国_高速_123
-      - _GB_英国_高速_124
-      - _FR_法国_高速_125
-      - _FR_法国_高速_130
-      - _FR_法国_高速_131
-      - _US_美国_高速_136
-      - _FR_法国_高速_138
-      - _CA_加拿大_高速_159
-      - _CA_加拿大_高速_160
-      - _GB_英国_高速_168
-      - _GB_英国_高速_169
-      - _US_美国_高速_177
-      - _FR_法国_高速_178
-      - _CA_加拿大_高速_180
-      - _GB_英国_高速_182
-      - _FR_法国_高速_187
-      - _GB_英国_高速_206
-      - _US_美国_高速_207
-      - _CA_加拿大_高速_222
-      - _GB_英国_高速_227
-      - _FR_法国_高速_233
-      - _FR_法国_高速_235
-      - _FR_法国_高速_246
-      - _FR_法国_高速_251
-      - _FR_法国_高速_264
-      - _FR_法国_高速_270
-      - _FR_法国_高速_276
-      - _CA_加拿大_高速_279
-      - _FR_法国_高速_287
-      - _CA_加拿大_高速_289
-      - _FR_法国_高速_300
-      - _FR_法国_高速_301
-      - _FR_法国_高速_302
-      - _PL_波兰_高速_304
-      - _GB_英国_高速_312
-      - _CA_加拿大_高速_315
-      - _CA_加拿大_高速_318
-      - _FR_法国_高速_321
-      - _FR_法国_高速_323
-      - _FR_法国_高速_324
-      - _FR_法国_高速_325
-      - _CA_加拿大_高速_328
-      - _CA_加拿大_高速_331
-      - _GB_英国_高速_332
-      - _FR_法国_高速_336
-      - _FR_法国_高速_342
-      - _FR_法国_高速_349
-      - _CA_加拿大_高速_356
-      - _GB_英国_高速_358
-      - _FR_法国_高速_361
-      - _CA_加拿大_高速_362
-      - _CA_加拿大_高速_365
-      - _FR_法国_高速_377
-      - _CA_加拿大_高速_379
-      - _US_美国_高速_384
-      - _CA_加拿大_高速_386
-      - _CA_加拿大_高速_390
-      - _GB_英国_高速_391
-      - _CA_加拿大_高速_393
-      - _FR_法国_高速_402
-      - _CA_加拿大_高速_405
-      - _GB_英国_高速_411
-      - _CA_加拿大_高速_420
-      - _FR_法国_高速_425
-      - _US_美国_高速_434
-      - _US_美国_高速_440
-      - _CA_加拿大_高速_441
-      - _FR_法国_高速_442
-      - _CA_加拿大_高速_445
-      - _GB_英国_高速_459
-      - _GB_英国_高速_460
-      - _PL_波兰_高速_464
-      - _GB_英国_高速_469
-      - _CA_加拿大_高速_480
-      - _DE_德国_高速_484
-      - _GB_英国_高速_486
-      - _FR_法国_高速_492
-      - _US_美国_高速_504
-      - _CA_加拿大_高速_528
-      - _CA_加拿大_高速_530
-      - _GB_英国_高速_539
-      - _CA_加拿大_高速_549
-      - _FR_法国_高速_563
-      - _FR_法国_高速_583
-      - _PL_波兰_高速_585
-      - _DE_德国_高速_586
-      - _FR_法国_高速_589
-      - _US_美国_高速_591
-      - _GB_英国_高速_592
-      - _GB_英国_高速_600
-      - _US_美国_高速_604
-      - _FR_法国_高速_609
-      - _FR_法国_高速_616
-      - _US_美国_高速_640
-      - _US_美国_高速_642
-      - _US_美国_高速_645
-      - _US_美国_高速_647
-      - _US_美国_高速_649
-      - _IN_印度_高速_658
-      - _IN_印度_高速_661
-      - _IN_印度_高速_663
-      - _IN_印度_高速_664
-      - _IN_印度_高速_667
-      - _IN_印度_高速_668
-      - _IN_印度_高速_669
-      - _IN_印度_高速_671
-      - _IN_印度_高速_672
-      - _IN_印度_高速_673
-      - _IN_印度_高速_674
-      - _IN_印度_高速_677
-      - _IN_印度_高速_678
-      - _IN_印度_高速_679
-      - _IN_印度_高速_680
-      - _IN_印度_高速_681
-      - _US_美国_高速_891
+      - 由atappviper搭建_🇺🇸_US_美国_1
+      - 由atappviper搭建_🇮🇪_IE_爱尔兰_2
+      - 由atappviper搜集_🇺🇸_US_美国_3
+      - 由atappviper搜集_🇯🇵_JP_日本_4
+      - 由atappviper搜集_🇺🇸_US_美国_5
+      - 由atappviper搜集_🇸🇬_SG_新加坡_6
+      - 由atappviper搜集_🇺🇸_US_美国_7
+      - 由atappviper搜集_🇿🇦_ZA_南非_8
+      - 由atappviper搜集_9
+      - 由atappviper搜集_🇺🇸_US_美国_10
+      - 由atappviper搜集_11
+      - 由atappviper搜集_🇨🇳_CN_中国_12
+      - 由atappviper搜集_🇺🇸_US_美国_13
+      - 由atappviper搜集_🇷🇺_RU_俄罗斯联邦_14
+      - 由atappviper搜集_🇯🇵_JP_日本_15
+      - 由appviper搜集_1
+      - 由appviper搜集_2
+      - 由appviper搜集_3
+      - 由appviper搜集_🇺🇸_US_美国_4
+      - 由appviper搜集_🇺🇸_US_美国_5
+      - 由appviper搜集_🇭🇰_HK_香港_6
+      - 由appviper搜集_🇫🇷_FR_法国_7
+      - 由appviper搜集_🇭🇰_HK_香港_8
+      - 由appviper搜集_🇱🇻_LV_拉脱维亚_9
+      - 由appviper搜集_🇫🇷_FR_法国_10
+      - 由appviper搜集_🇱🇺_LU_卢森堡_11
+      - 由appviper搜集_🇨🇳_CN_中国_12
+      - 高速【中转】_🇨🇳_CN_中国_1
+      - 由atappsviper搜集_🇭🇰_JP_香港_1
+      - 由atappsviper搜集_🇭🇰_HK_香港_2
+      - 由appviper搜集_🇭🇰_HK_香港_1
+      - 由appviper搜集_🇭🇰_HK_香港_2
+      - 由appviper搜集_🇺🇸_US_美国_1
+      - 由appviper搜集_🇺🇸_US_美国_2
+      - 由appviper搜集_🇺🇸_US_美国_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _FR_法国_高速_46
-      - _FR_法国_高速_49
-      - _US_美国_高速_55
-      - _FR_法国_高速_56
-      - _FR_法国_高速_58
-      - _FR_法国_高速_59
-      - _FR_法国_高速_63
-      - _FR_法国_高速_64
-      - _GB_英国_高速_65
-      - _GB_英国_高速_73
-      - _FR_法国_高速_75
-      - _GB_英国_高速_77
-      - _GB_英国_高速_78
-      - _CA_加拿大_高速_79
-      - _FR_法国_高速_81
-      - _GB_英国_高速_82
-      - _CA_加拿大_高速_90
-      - _FR_法国_高速_91
-      - _FR_法国_高速_92
-      - _GB_英国_高速_94
-      - _CA_加拿大_高速_96
-      - _GB_英国_高速_98
-      - _CA_加拿大_高速_103
-      - _GB_英国_高速_104
-      - _FR_法国_高速_105
-      - _FR_法国_高速_106
-      - _FR_法国_高速_109
-      - _FR_法国_高速_110
-      - _FR_法国_高速_114
-      - _GB_英国_高速_118
-      - _GB_英国_高速_123
-      - _GB_英国_高速_124
-      - _FR_法国_高速_125
-      - _FR_法国_高速_130
-      - _FR_法国_高速_131
-      - _US_美国_高速_136
-      - _FR_法国_高速_138
-      - _CA_加拿大_高速_159
-      - _CA_加拿大_高速_160
-      - _GB_英国_高速_168
-      - _GB_英国_高速_169
-      - _US_美国_高速_177
-      - _FR_法国_高速_178
-      - _CA_加拿大_高速_180
-      - _GB_英国_高速_182
-      - _FR_法国_高速_187
-      - _GB_英国_高速_206
-      - _US_美国_高速_207
-      - _CA_加拿大_高速_222
-      - _GB_英国_高速_227
-      - _FR_法国_高速_233
-      - _FR_法国_高速_235
-      - _FR_法国_高速_246
-      - _FR_法国_高速_251
-      - _FR_法国_高速_264
-      - _FR_法国_高速_270
-      - _FR_法国_高速_276
-      - _CA_加拿大_高速_279
-      - _FR_法国_高速_287
-      - _CA_加拿大_高速_289
-      - _FR_法国_高速_300
-      - _FR_法国_高速_301
-      - _FR_法国_高速_302
-      - _PL_波兰_高速_304
-      - _GB_英国_高速_312
-      - _CA_加拿大_高速_315
-      - _CA_加拿大_高速_318
-      - _FR_法国_高速_321
-      - _FR_法国_高速_323
-      - _FR_法国_高速_324
-      - _FR_法国_高速_325
-      - _CA_加拿大_高速_328
-      - _CA_加拿大_高速_331
-      - _GB_英国_高速_332
-      - _FR_法国_高速_336
-      - _FR_法国_高速_342
-      - _FR_法国_高速_349
-      - _CA_加拿大_高速_356
-      - _GB_英国_高速_358
-      - _FR_法国_高速_361
-      - _CA_加拿大_高速_362
-      - _CA_加拿大_高速_365
-      - _FR_法国_高速_377
-      - _CA_加拿大_高速_379
-      - _US_美国_高速_384
-      - _CA_加拿大_高速_386
-      - _CA_加拿大_高速_390
-      - _GB_英国_高速_391
-      - _CA_加拿大_高速_393
-      - _FR_法国_高速_402
-      - _CA_加拿大_高速_405
-      - _GB_英国_高速_411
-      - _CA_加拿大_高速_420
-      - _FR_法国_高速_425
-      - _US_美国_高速_434
-      - _US_美国_高速_440
-      - _CA_加拿大_高速_441
-      - _FR_法国_高速_442
-      - _CA_加拿大_高速_445
-      - _GB_英国_高速_459
-      - _GB_英国_高速_460
-      - _PL_波兰_高速_464
-      - _GB_英国_高速_469
-      - _CA_加拿大_高速_480
-      - _DE_德国_高速_484
-      - _GB_英国_高速_486
-      - _FR_法国_高速_492
-      - _US_美国_高速_504
-      - _CA_加拿大_高速_528
-      - _CA_加拿大_高速_530
-      - _GB_英国_高速_539
-      - _CA_加拿大_高速_549
-      - _FR_法国_高速_563
-      - _FR_法国_高速_583
-      - _PL_波兰_高速_585
-      - _DE_德国_高速_586
-      - _FR_法国_高速_589
-      - _US_美国_高速_591
-      - _GB_英国_高速_592
-      - _GB_英国_高速_600
-      - _US_美国_高速_604
-      - _FR_法国_高速_609
-      - _FR_法国_高速_616
-      - _US_美国_高速_640
-      - _US_美国_高速_642
-      - _US_美国_高速_645
-      - _US_美国_高速_647
-      - _US_美国_高速_649
-      - _IN_印度_高速_658
-      - _IN_印度_高速_661
-      - _IN_印度_高速_663
-      - _IN_印度_高速_664
-      - _IN_印度_高速_667
-      - _IN_印度_高速_668
-      - _IN_印度_高速_669
-      - _IN_印度_高速_671
-      - _IN_印度_高速_672
-      - _IN_印度_高速_673
-      - _IN_印度_高速_674
-      - _IN_印度_高速_677
-      - _IN_印度_高速_678
-      - _IN_印度_高速_679
-      - _IN_印度_高速_680
-      - _IN_印度_高速_681
-      - _US_美国_高速_891
+      - 由atappviper搭建_🇺🇸_US_美国_1
+      - 由atappviper搭建_🇮🇪_IE_爱尔兰_2
+      - 由atappviper搜集_🇺🇸_US_美国_3
+      - 由atappviper搜集_🇯🇵_JP_日本_4
+      - 由atappviper搜集_🇺🇸_US_美国_5
+      - 由atappviper搜集_🇸🇬_SG_新加坡_6
+      - 由atappviper搜集_🇺🇸_US_美国_7
+      - 由atappviper搜集_🇿🇦_ZA_南非_8
+      - 由atappviper搜集_9
+      - 由atappviper搜集_🇺🇸_US_美国_10
+      - 由atappviper搜集_11
+      - 由atappviper搜集_🇨🇳_CN_中国_12
+      - 由atappviper搜集_🇺🇸_US_美国_13
+      - 由atappviper搜集_🇷🇺_RU_俄罗斯联邦_14
+      - 由atappviper搜集_🇯🇵_JP_日本_15
+      - 由appviper搜集_1
+      - 由appviper搜集_2
+      - 由appviper搜集_3
+      - 由appviper搜集_🇺🇸_US_美国_4
+      - 由appviper搜集_🇺🇸_US_美国_5
+      - 由appviper搜集_🇭🇰_HK_香港_6
+      - 由appviper搜集_🇫🇷_FR_法国_7
+      - 由appviper搜集_🇭🇰_HK_香港_8
+      - 由appviper搜集_🇱🇻_LV_拉脱维亚_9
+      - 由appviper搜集_🇫🇷_FR_法国_10
+      - 由appviper搜集_🇱🇺_LU_卢森堡_11
+      - 由appviper搜集_🇨🇳_CN_中国_12
+      - 高速【中转】_🇨🇳_CN_中国_1
+      - 由atappsviper搜集_🇭🇰_JP_香港_1
+      - 由atappsviper搜集_🇭🇰_HK_香港_2
+      - 由appviper搜集_🇭🇰_HK_香港_1
+      - 由appviper搜集_🇭🇰_HK_香港_2
+      - 由appviper搜集_🇺🇸_US_美国_1
+      - 由appviper搜集_🇺🇸_US_美国_2
+      - 由appviper搜集_🇺🇸_US_美国_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _FR_法国_高速_46
-      - _FR_法国_高速_49
-      - _US_美国_高速_55
-      - _FR_法国_高速_56
-      - _FR_法国_高速_58
-      - _FR_法国_高速_59
-      - _FR_法国_高速_63
-      - _FR_法国_高速_64
-      - _GB_英国_高速_65
-      - _GB_英国_高速_73
-      - _FR_法国_高速_75
-      - _GB_英国_高速_77
-      - _GB_英国_高速_78
-      - _CA_加拿大_高速_79
-      - _FR_法国_高速_81
-      - _GB_英国_高速_82
-      - _CA_加拿大_高速_90
-      - _FR_法国_高速_91
-      - _FR_法国_高速_92
-      - _GB_英国_高速_94
-      - _CA_加拿大_高速_96
-      - _GB_英国_高速_98
-      - _CA_加拿大_高速_103
-      - _GB_英国_高速_104
-      - _FR_法国_高速_105
-      - _FR_法国_高速_106
-      - _FR_法国_高速_109
-      - _FR_法国_高速_110
-      - _FR_法国_高速_114
-      - _GB_英国_高速_118
-      - _GB_英国_高速_123
-      - _GB_英国_高速_124
-      - _FR_法国_高速_125
-      - _FR_法国_高速_130
-      - _FR_法国_高速_131
-      - _US_美国_高速_136
-      - _FR_法国_高速_138
-      - _CA_加拿大_高速_159
-      - _CA_加拿大_高速_160
-      - _GB_英国_高速_168
-      - _GB_英国_高速_169
-      - _US_美国_高速_177
-      - _FR_法国_高速_178
-      - _CA_加拿大_高速_180
-      - _GB_英国_高速_182
-      - _FR_法国_高速_187
-      - _GB_英国_高速_206
-      - _US_美国_高速_207
-      - _CA_加拿大_高速_222
-      - _GB_英国_高速_227
-      - _FR_法国_高速_233
-      - _FR_法国_高速_235
-      - _FR_法国_高速_246
-      - _FR_法国_高速_251
-      - _FR_法国_高速_264
-      - _FR_法国_高速_270
-      - _FR_法国_高速_276
-      - _CA_加拿大_高速_279
-      - _FR_法国_高速_287
-      - _CA_加拿大_高速_289
-      - _FR_法国_高速_300
-      - _FR_法国_高速_301
-      - _FR_法国_高速_302
-      - _PL_波兰_高速_304
-      - _GB_英国_高速_312
-      - _CA_加拿大_高速_315
-      - _CA_加拿大_高速_318
-      - _FR_法国_高速_321
-      - _FR_法国_高速_323
-      - _FR_法国_高速_324
-      - _FR_法国_高速_325
-      - _CA_加拿大_高速_328
-      - _CA_加拿大_高速_331
-      - _GB_英国_高速_332
-      - _FR_法国_高速_336
-      - _FR_法国_高速_342
-      - _FR_法国_高速_349
-      - _CA_加拿大_高速_356
-      - _GB_英国_高速_358
-      - _FR_法国_高速_361
-      - _CA_加拿大_高速_362
-      - _CA_加拿大_高速_365
-      - _FR_法国_高速_377
-      - _CA_加拿大_高速_379
-      - _US_美国_高速_384
-      - _CA_加拿大_高速_386
-      - _CA_加拿大_高速_390
-      - _GB_英国_高速_391
-      - _CA_加拿大_高速_393
-      - _FR_法国_高速_402
-      - _CA_加拿大_高速_405
-      - _GB_英国_高速_411
-      - _CA_加拿大_高速_420
-      - _FR_法国_高速_425
-      - _US_美国_高速_434
-      - _US_美国_高速_440
-      - _CA_加拿大_高速_441
-      - _FR_法国_高速_442
-      - _CA_加拿大_高速_445
-      - _GB_英国_高速_459
-      - _GB_英国_高速_460
-      - _PL_波兰_高速_464
-      - _GB_英国_高速_469
-      - _CA_加拿大_高速_480
-      - _DE_德国_高速_484
-      - _GB_英国_高速_486
-      - _FR_法国_高速_492
-      - _US_美国_高速_504
-      - _CA_加拿大_高速_528
-      - _CA_加拿大_高速_530
-      - _GB_英国_高速_539
-      - _CA_加拿大_高速_549
-      - _FR_法国_高速_563
-      - _FR_法国_高速_583
-      - _PL_波兰_高速_585
-      - _DE_德国_高速_586
-      - _FR_法国_高速_589
-      - _US_美国_高速_591
-      - _GB_英国_高速_592
-      - _GB_英国_高速_600
-      - _US_美国_高速_604
-      - _FR_法国_高速_609
-      - _FR_法国_高速_616
-      - _US_美国_高速_640
-      - _US_美国_高速_642
-      - _US_美国_高速_645
-      - _US_美国_高速_647
-      - _US_美国_高速_649
-      - _IN_印度_高速_658
-      - _IN_印度_高速_661
-      - _IN_印度_高速_663
-      - _IN_印度_高速_664
-      - _IN_印度_高速_667
-      - _IN_印度_高速_668
-      - _IN_印度_高速_669
-      - _IN_印度_高速_671
-      - _IN_印度_高速_672
-      - _IN_印度_高速_673
-      - _IN_印度_高速_674
-      - _IN_印度_高速_677
-      - _IN_印度_高速_678
-      - _IN_印度_高速_679
-      - _IN_印度_高速_680
-      - _IN_印度_高速_681
-      - _US_美国_高速_891
+      - 由atappviper搭建_🇺🇸_US_美国_1
+      - 由atappviper搭建_🇮🇪_IE_爱尔兰_2
+      - 由atappviper搜集_🇺🇸_US_美国_3
+      - 由atappviper搜集_🇯🇵_JP_日本_4
+      - 由atappviper搜集_🇺🇸_US_美国_5
+      - 由atappviper搜集_🇸🇬_SG_新加坡_6
+      - 由atappviper搜集_🇺🇸_US_美国_7
+      - 由atappviper搜集_🇿🇦_ZA_南非_8
+      - 由atappviper搜集_9
+      - 由atappviper搜集_🇺🇸_US_美国_10
+      - 由atappviper搜集_11
+      - 由atappviper搜集_🇨🇳_CN_中国_12
+      - 由atappviper搜集_🇺🇸_US_美国_13
+      - 由atappviper搜集_🇷🇺_RU_俄罗斯联邦_14
+      - 由atappviper搜集_🇯🇵_JP_日本_15
+      - 由appviper搜集_1
+      - 由appviper搜集_2
+      - 由appviper搜集_3
+      - 由appviper搜集_🇺🇸_US_美国_4
+      - 由appviper搜集_🇺🇸_US_美国_5
+      - 由appviper搜集_🇭🇰_HK_香港_6
+      - 由appviper搜集_🇫🇷_FR_法国_7
+      - 由appviper搜集_🇭🇰_HK_香港_8
+      - 由appviper搜集_🇱🇻_LV_拉脱维亚_9
+      - 由appviper搜集_🇫🇷_FR_法国_10
+      - 由appviper搜集_🇱🇺_LU_卢森堡_11
+      - 由appviper搜集_🇨🇳_CN_中国_12
+      - 高速【中转】_🇨🇳_CN_中国_1
+      - 由atappsviper搜集_🇭🇰_JP_香港_1
+      - 由atappsviper搜集_🇭🇰_HK_香港_2
+      - 由appviper搜集_🇭🇰_HK_香港_1
+      - 由appviper搜集_🇭🇰_HK_香港_2
+      - 由appviper搜集_🇺🇸_US_美国_1
+      - 由appviper搜集_🇺🇸_US_美国_2
+      - 由appviper搜集_🇺🇸_US_美国_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - _FR_法国_高速_46
-      - _FR_法国_高速_49
-      - _US_美国_高速_55
-      - _FR_法国_高速_56
-      - _FR_法国_高速_58
-      - _FR_法国_高速_59
-      - _FR_法国_高速_63
-      - _FR_法国_高速_64
-      - _GB_英国_高速_65
-      - _GB_英国_高速_73
-      - _FR_法国_高速_75
-      - _GB_英国_高速_77
-      - _GB_英国_高速_78
-      - _CA_加拿大_高速_79
-      - _FR_法国_高速_81
-      - _GB_英国_高速_82
-      - _CA_加拿大_高速_90
-      - _FR_法国_高速_91
-      - _FR_法国_高速_92
-      - _GB_英国_高速_94
-      - _CA_加拿大_高速_96
-      - _GB_英国_高速_98
-      - _CA_加拿大_高速_103
-      - _GB_英国_高速_104
-      - _FR_法国_高速_105
-      - _FR_法国_高速_106
-      - _FR_法国_高速_109
-      - _FR_法国_高速_110
-      - _FR_法国_高速_114
-      - _GB_英国_高速_118
-      - _GB_英国_高速_123
-      - _GB_英国_高速_124
-      - _FR_法国_高速_125
-      - _FR_法国_高速_130
-      - _FR_法国_高速_131
-      - _US_美国_高速_136
-      - _FR_法国_高速_138
-      - _CA_加拿大_高速_159
-      - _CA_加拿大_高速_160
-      - _GB_英国_高速_168
-      - _GB_英国_高速_169
-      - _US_美国_高速_177
-      - _FR_法国_高速_178
-      - _CA_加拿大_高速_180
-      - _GB_英国_高速_182
-      - _FR_法国_高速_187
-      - _GB_英国_高速_206
-      - _US_美国_高速_207
-      - _CA_加拿大_高速_222
-      - _GB_英国_高速_227
-      - _FR_法国_高速_233
-      - _FR_法国_高速_235
-      - _FR_法国_高速_246
-      - _FR_法国_高速_251
-      - _FR_法国_高速_264
-      - _FR_法国_高速_270
-      - _FR_法国_高速_276
-      - _CA_加拿大_高速_279
-      - _FR_法国_高速_287
-      - _CA_加拿大_高速_289
-      - _FR_法国_高速_300
-      - _FR_法国_高速_301
-      - _FR_法国_高速_302
-      - _PL_波兰_高速_304
-      - _GB_英国_高速_312
-      - _CA_加拿大_高速_315
-      - _CA_加拿大_高速_318
-      - _FR_法国_高速_321
-      - _FR_法国_高速_323
-      - _FR_法国_高速_324
-      - _FR_法国_高速_325
-      - _CA_加拿大_高速_328
-      - _CA_加拿大_高速_331
-      - _GB_英国_高速_332
-      - _FR_法国_高速_336
-      - _FR_法国_高速_342
-      - _FR_法国_高速_349
-      - _CA_加拿大_高速_356
-      - _GB_英国_高速_358
-      - _FR_法国_高速_361
-      - _CA_加拿大_高速_362
-      - _CA_加拿大_高速_365
-      - _FR_法国_高速_377
-      - _CA_加拿大_高速_379
-      - _US_美国_高速_384
-      - _CA_加拿大_高速_386
-      - _CA_加拿大_高速_390
-      - _GB_英国_高速_391
-      - _CA_加拿大_高速_393
-      - _FR_法国_高速_402
-      - _CA_加拿大_高速_405
-      - _GB_英国_高速_411
-      - _CA_加拿大_高速_420
-      - _FR_法国_高速_425
-      - _US_美国_高速_434
-      - _US_美国_高速_440
-      - _CA_加拿大_高速_441
-      - _FR_法国_高速_442
-      - _CA_加拿大_高速_445
-      - _GB_英国_高速_459
-      - _GB_英国_高速_460
-      - _PL_波兰_高速_464
-      - _GB_英国_高速_469
-      - _CA_加拿大_高速_480
-      - _DE_德国_高速_484
-      - _GB_英国_高速_486
-      - _FR_法国_高速_492
-      - _US_美国_高速_504
-      - _CA_加拿大_高速_528
-      - _CA_加拿大_高速_530
-      - _GB_英国_高速_539
-      - _CA_加拿大_高速_549
-      - _FR_法国_高速_563
-      - _FR_法国_高速_583
-      - _PL_波兰_高速_585
-      - _DE_德国_高速_586
-      - _FR_法国_高速_589
-      - _US_美国_高速_591
-      - _GB_英国_高速_592
-      - _GB_英国_高速_600
-      - _US_美国_高速_604
-      - _FR_法国_高速_609
-      - _FR_法国_高速_616
-      - _US_美国_高速_640
-      - _US_美国_高速_642
-      - _US_美国_高速_645
-      - _US_美国_高速_647
-      - _US_美国_高速_649
-      - _IN_印度_高速_658
-      - _IN_印度_高速_661
-      - _IN_印度_高速_663
-      - _IN_印度_高速_664
-      - _IN_印度_高速_667
-      - _IN_印度_高速_668
-      - _IN_印度_高速_669
-      - _IN_印度_高速_671
-      - _IN_印度_高速_672
-      - _IN_印度_高速_673
-      - _IN_印度_高速_674
-      - _IN_印度_高速_677
-      - _IN_印度_高速_678
-      - _IN_印度_高速_679
-      - _IN_印度_高速_680
-      - _IN_印度_高速_681
-      - _US_美国_高速_891
+      - 由atappviper搭建_🇺🇸_US_美国_1
+      - 由atappviper搭建_🇮🇪_IE_爱尔兰_2
+      - 由atappviper搜集_🇺🇸_US_美国_3
+      - 由atappviper搜集_🇯🇵_JP_日本_4
+      - 由atappviper搜集_🇺🇸_US_美国_5
+      - 由atappviper搜集_🇸🇬_SG_新加坡_6
+      - 由atappviper搜集_🇺🇸_US_美国_7
+      - 由atappviper搜集_🇿🇦_ZA_南非_8
+      - 由atappviper搜集_9
+      - 由atappviper搜集_🇺🇸_US_美国_10
+      - 由atappviper搜集_11
+      - 由atappviper搜集_🇨🇳_CN_中国_12
+      - 由atappviper搜集_🇺🇸_US_美国_13
+      - 由atappviper搜集_🇷🇺_RU_俄罗斯联邦_14
+      - 由atappviper搜集_🇯🇵_JP_日本_15
+      - 由appviper搜集_1
+      - 由appviper搜集_2
+      - 由appviper搜集_3
+      - 由appviper搜集_🇺🇸_US_美国_4
+      - 由appviper搜集_🇺🇸_US_美国_5
+      - 由appviper搜集_🇭🇰_HK_香港_6
+      - 由appviper搜集_🇫🇷_FR_法国_7
+      - 由appviper搜集_🇭🇰_HK_香港_8
+      - 由appviper搜集_🇱🇻_LV_拉脱维亚_9
+      - 由appviper搜集_🇫🇷_FR_法国_10
+      - 由appviper搜集_🇱🇺_LU_卢森堡_11
+      - 由appviper搜集_🇨🇳_CN_中国_12
+      - 高速【中转】_🇨🇳_CN_中国_1
+      - 由atappsviper搜集_🇭🇰_JP_香港_1
+      - 由atappsviper搜集_🇭🇰_HK_香港_2
+      - 由appviper搜集_🇭🇰_HK_香港_1
+      - 由appviper搜集_🇭🇰_HK_香港_2
+      - 由appviper搜集_🇺🇸_US_美国_1
+      - 由appviper搜集_🇺🇸_US_美国_2
+      - 由appviper搜集_🇺🇸_US_美国_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _FR_法国_高速_46
-      - _FR_法国_高速_49
-      - _US_美国_高速_55
-      - _FR_法国_高速_56
-      - _FR_法国_高速_58
-      - _FR_法国_高速_59
-      - _FR_法国_高速_63
-      - _FR_法国_高速_64
-      - _GB_英国_高速_65
-      - _GB_英国_高速_73
-      - _FR_法国_高速_75
-      - _GB_英国_高速_77
-      - _GB_英国_高速_78
-      - _CA_加拿大_高速_79
-      - _FR_法国_高速_81
-      - _GB_英国_高速_82
-      - _CA_加拿大_高速_90
-      - _FR_法国_高速_91
-      - _FR_法国_高速_92
-      - _GB_英国_高速_94
-      - _CA_加拿大_高速_96
-      - _GB_英国_高速_98
-      - _CA_加拿大_高速_103
-      - _GB_英国_高速_104
-      - _FR_法国_高速_105
-      - _FR_法国_高速_106
-      - _FR_法国_高速_109
-      - _FR_法国_高速_110
-      - _FR_法国_高速_114
-      - _GB_英国_高速_118
-      - _GB_英国_高速_123
-      - _GB_英国_高速_124
-      - _FR_法国_高速_125
-      - _FR_法国_高速_130
-      - _FR_法国_高速_131
-      - _US_美国_高速_136
-      - _FR_法国_高速_138
-      - _CA_加拿大_高速_159
-      - _CA_加拿大_高速_160
-      - _GB_英国_高速_168
-      - _GB_英国_高速_169
-      - _US_美国_高速_177
-      - _FR_法国_高速_178
-      - _CA_加拿大_高速_180
-      - _GB_英国_高速_182
-      - _FR_法国_高速_187
-      - _GB_英国_高速_206
-      - _US_美国_高速_207
-      - _CA_加拿大_高速_222
-      - _GB_英国_高速_227
-      - _FR_法国_高速_233
-      - _FR_法国_高速_235
-      - _FR_法国_高速_246
-      - _FR_法国_高速_251
-      - _FR_法国_高速_264
-      - _FR_法国_高速_270
-      - _FR_法国_高速_276
-      - _CA_加拿大_高速_279
-      - _FR_法国_高速_287
-      - _CA_加拿大_高速_289
-      - _FR_法国_高速_300
-      - _FR_法国_高速_301
-      - _FR_法国_高速_302
-      - _PL_波兰_高速_304
-      - _GB_英国_高速_312
-      - _CA_加拿大_高速_315
-      - _CA_加拿大_高速_318
-      - _FR_法国_高速_321
-      - _FR_法国_高速_323
-      - _FR_法国_高速_324
-      - _FR_法国_高速_325
-      - _CA_加拿大_高速_328
-      - _CA_加拿大_高速_331
-      - _GB_英国_高速_332
-      - _FR_法国_高速_336
-      - _FR_法国_高速_342
-      - _FR_法国_高速_349
-      - _CA_加拿大_高速_356
-      - _GB_英国_高速_358
-      - _FR_法国_高速_361
-      - _CA_加拿大_高速_362
-      - _CA_加拿大_高速_365
-      - _FR_法国_高速_377
-      - _CA_加拿大_高速_379
-      - _US_美国_高速_384
-      - _CA_加拿大_高速_386
-      - _CA_加拿大_高速_390
-      - _GB_英国_高速_391
-      - _CA_加拿大_高速_393
-      - _FR_法国_高速_402
-      - _CA_加拿大_高速_405
-      - _GB_英国_高速_411
-      - _CA_加拿大_高速_420
-      - _FR_法国_高速_425
-      - _US_美国_高速_434
-      - _US_美国_高速_440
-      - _CA_加拿大_高速_441
-      - _FR_法国_高速_442
-      - _CA_加拿大_高速_445
-      - _GB_英国_高速_459
-      - _GB_英国_高速_460
-      - _PL_波兰_高速_464
-      - _GB_英国_高速_469
-      - _CA_加拿大_高速_480
-      - _DE_德国_高速_484
-      - _GB_英国_高速_486
-      - _FR_法国_高速_492
-      - _US_美国_高速_504
-      - _CA_加拿大_高速_528
-      - _CA_加拿大_高速_530
-      - _GB_英国_高速_539
-      - _CA_加拿大_高速_549
-      - _FR_法国_高速_563
-      - _FR_法国_高速_583
-      - _PL_波兰_高速_585
-      - _DE_德国_高速_586
-      - _FR_法国_高速_589
-      - _US_美国_高速_591
-      - _GB_英国_高速_592
-      - _GB_英国_高速_600
-      - _US_美国_高速_604
-      - _FR_法国_高速_609
-      - _FR_法国_高速_616
-      - _US_美国_高速_640
-      - _US_美国_高速_642
-      - _US_美国_高速_645
-      - _US_美国_高速_647
-      - _US_美国_高速_649
-      - _IN_印度_高速_658
-      - _IN_印度_高速_661
-      - _IN_印度_高速_663
-      - _IN_印度_高速_664
-      - _IN_印度_高速_667
-      - _IN_印度_高速_668
-      - _IN_印度_高速_669
-      - _IN_印度_高速_671
-      - _IN_印度_高速_672
-      - _IN_印度_高速_673
-      - _IN_印度_高速_674
-      - _IN_印度_高速_677
-      - _IN_印度_高速_678
-      - _IN_印度_高速_679
-      - _IN_印度_高速_680
-      - _IN_印度_高速_681
-      - _US_美国_高速_891
+      - 由atappviper搭建_🇺🇸_US_美国_1
+      - 由atappviper搭建_🇮🇪_IE_爱尔兰_2
+      - 由atappviper搜集_🇺🇸_US_美国_3
+      - 由atappviper搜集_🇯🇵_JP_日本_4
+      - 由atappviper搜集_🇺🇸_US_美国_5
+      - 由atappviper搜集_🇸🇬_SG_新加坡_6
+      - 由atappviper搜集_🇺🇸_US_美国_7
+      - 由atappviper搜集_🇿🇦_ZA_南非_8
+      - 由atappviper搜集_9
+      - 由atappviper搜集_🇺🇸_US_美国_10
+      - 由atappviper搜集_11
+      - 由atappviper搜集_🇨🇳_CN_中国_12
+      - 由atappviper搜集_🇺🇸_US_美国_13
+      - 由atappviper搜集_🇷🇺_RU_俄罗斯联邦_14
+      - 由atappviper搜集_🇯🇵_JP_日本_15
+      - 由appviper搜集_1
+      - 由appviper搜集_2
+      - 由appviper搜集_3
+      - 由appviper搜集_🇺🇸_US_美国_4
+      - 由appviper搜集_🇺🇸_US_美国_5
+      - 由appviper搜集_🇭🇰_HK_香港_6
+      - 由appviper搜集_🇫🇷_FR_法国_7
+      - 由appviper搜集_🇭🇰_HK_香港_8
+      - 由appviper搜集_🇱🇻_LV_拉脱维亚_9
+      - 由appviper搜集_🇫🇷_FR_法国_10
+      - 由appviper搜集_🇱🇺_LU_卢森堡_11
+      - 由appviper搜集_🇨🇳_CN_中国_12
+      - 高速【中转】_🇨🇳_CN_中国_1
+      - 由atappsviper搜集_🇭🇰_JP_香港_1
+      - 由atappsviper搜集_🇭🇰_HK_香港_2
+      - 由appviper搜集_🇭🇰_HK_香港_1
+      - 由appviper搜集_🇭🇰_HK_香港_2
+      - 由appviper搜集_🇺🇸_US_美国_1
+      - 由appviper搜集_🇺🇸_US_美国_2
+      - 由appviper搜集_🇺🇸_US_美国_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1075,151 +316,41 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _FR_法国_高速_46
-      - _FR_法国_高速_49
-      - _US_美国_高速_55
-      - _FR_法国_高速_56
-      - _FR_法国_高速_58
-      - _FR_法国_高速_59
-      - _FR_法国_高速_63
-      - _FR_法国_高速_64
-      - _GB_英国_高速_65
-      - _GB_英国_高速_73
-      - _FR_法国_高速_75
-      - _GB_英国_高速_77
-      - _GB_英国_高速_78
-      - _CA_加拿大_高速_79
-      - _FR_法国_高速_81
-      - _GB_英国_高速_82
-      - _CA_加拿大_高速_90
-      - _FR_法国_高速_91
-      - _FR_法国_高速_92
-      - _GB_英国_高速_94
-      - _CA_加拿大_高速_96
-      - _GB_英国_高速_98
-      - _CA_加拿大_高速_103
-      - _GB_英国_高速_104
-      - _FR_法国_高速_105
-      - _FR_法国_高速_106
-      - _FR_法国_高速_109
-      - _FR_法国_高速_110
-      - _FR_法国_高速_114
-      - _GB_英国_高速_118
-      - _GB_英国_高速_123
-      - _GB_英国_高速_124
-      - _FR_法国_高速_125
-      - _FR_法国_高速_130
-      - _FR_法国_高速_131
-      - _US_美国_高速_136
-      - _FR_法国_高速_138
-      - _CA_加拿大_高速_159
-      - _CA_加拿大_高速_160
-      - _GB_英国_高速_168
-      - _GB_英国_高速_169
-      - _US_美国_高速_177
-      - _FR_法国_高速_178
-      - _CA_加拿大_高速_180
-      - _GB_英国_高速_182
-      - _FR_法国_高速_187
-      - _GB_英国_高速_206
-      - _US_美国_高速_207
-      - _CA_加拿大_高速_222
-      - _GB_英国_高速_227
-      - _FR_法国_高速_233
-      - _FR_法国_高速_235
-      - _FR_法国_高速_246
-      - _FR_法国_高速_251
-      - _FR_法国_高速_264
-      - _FR_法国_高速_270
-      - _FR_法国_高速_276
-      - _CA_加拿大_高速_279
-      - _FR_法国_高速_287
-      - _CA_加拿大_高速_289
-      - _FR_法国_高速_300
-      - _FR_法国_高速_301
-      - _FR_法国_高速_302
-      - _PL_波兰_高速_304
-      - _GB_英国_高速_312
-      - _CA_加拿大_高速_315
-      - _CA_加拿大_高速_318
-      - _FR_法国_高速_321
-      - _FR_法国_高速_323
-      - _FR_法国_高速_324
-      - _FR_法国_高速_325
-      - _CA_加拿大_高速_328
-      - _CA_加拿大_高速_331
-      - _GB_英国_高速_332
-      - _FR_法国_高速_336
-      - _FR_法国_高速_342
-      - _FR_法国_高速_349
-      - _CA_加拿大_高速_356
-      - _GB_英国_高速_358
-      - _FR_法国_高速_361
-      - _CA_加拿大_高速_362
-      - _CA_加拿大_高速_365
-      - _FR_法国_高速_377
-      - _CA_加拿大_高速_379
-      - _US_美国_高速_384
-      - _CA_加拿大_高速_386
-      - _CA_加拿大_高速_390
-      - _GB_英国_高速_391
-      - _CA_加拿大_高速_393
-      - _FR_法国_高速_402
-      - _CA_加拿大_高速_405
-      - _GB_英国_高速_411
-      - _CA_加拿大_高速_420
-      - _FR_法国_高速_425
-      - _US_美国_高速_434
-      - _US_美国_高速_440
-      - _CA_加拿大_高速_441
-      - _FR_法国_高速_442
-      - _CA_加拿大_高速_445
-      - _GB_英国_高速_459
-      - _GB_英国_高速_460
-      - _PL_波兰_高速_464
-      - _GB_英国_高速_469
-      - _CA_加拿大_高速_480
-      - _DE_德国_高速_484
-      - _GB_英国_高速_486
-      - _FR_法国_高速_492
-      - _US_美国_高速_504
-      - _CA_加拿大_高速_528
-      - _CA_加拿大_高速_530
-      - _GB_英国_高速_539
-      - _CA_加拿大_高速_549
-      - _FR_法国_高速_563
-      - _FR_法国_高速_583
-      - _PL_波兰_高速_585
-      - _DE_德国_高速_586
-      - _FR_法国_高速_589
-      - _US_美国_高速_591
-      - _GB_英国_高速_592
-      - _GB_英国_高速_600
-      - _US_美国_高速_604
-      - _FR_法国_高速_609
-      - _FR_法国_高速_616
-      - _US_美国_高速_640
-      - _US_美国_高速_642
-      - _US_美国_高速_645
-      - _US_美国_高速_647
-      - _US_美国_高速_649
-      - _IN_印度_高速_658
-      - _IN_印度_高速_661
-      - _IN_印度_高速_663
-      - _IN_印度_高速_664
-      - _IN_印度_高速_667
-      - _IN_印度_高速_668
-      - _IN_印度_高速_669
-      - _IN_印度_高速_671
-      - _IN_印度_高速_672
-      - _IN_印度_高速_673
-      - _IN_印度_高速_674
-      - _IN_印度_高速_677
-      - _IN_印度_高速_678
-      - _IN_印度_高速_679
-      - _IN_印度_高速_680
-      - _IN_印度_高速_681
-      - _US_美国_高速_891
+      - 由atappviper搭建_🇺🇸_US_美国_1
+      - 由atappviper搭建_🇮🇪_IE_爱尔兰_2
+      - 由atappviper搜集_🇺🇸_US_美国_3
+      - 由atappviper搜集_🇯🇵_JP_日本_4
+      - 由atappviper搜集_🇺🇸_US_美国_5
+      - 由atappviper搜集_🇸🇬_SG_新加坡_6
+      - 由atappviper搜集_🇺🇸_US_美国_7
+      - 由atappviper搜集_🇿🇦_ZA_南非_8
+      - 由atappviper搜集_9
+      - 由atappviper搜集_🇺🇸_US_美国_10
+      - 由atappviper搜集_11
+      - 由atappviper搜集_🇨🇳_CN_中国_12
+      - 由atappviper搜集_🇺🇸_US_美国_13
+      - 由atappviper搜集_🇷🇺_RU_俄罗斯联邦_14
+      - 由atappviper搜集_🇯🇵_JP_日本_15
+      - 由appviper搜集_1
+      - 由appviper搜集_2
+      - 由appviper搜集_3
+      - 由appviper搜集_🇺🇸_US_美国_4
+      - 由appviper搜集_🇺🇸_US_美国_5
+      - 由appviper搜集_🇭🇰_HK_香港_6
+      - 由appviper搜集_🇫🇷_FR_法国_7
+      - 由appviper搜集_🇭🇰_HK_香港_8
+      - 由appviper搜集_🇱🇻_LV_拉脱维亚_9
+      - 由appviper搜集_🇫🇷_FR_法国_10
+      - 由appviper搜集_🇱🇺_LU_卢森堡_11
+      - 由appviper搜集_🇨🇳_CN_中国_12
+      - 高速【中转】_🇨🇳_CN_中国_1
+      - 由atappsviper搜集_🇭🇰_JP_香港_1
+      - 由atappsviper搜集_🇭🇰_HK_香港_2
+      - 由appviper搜集_🇭🇰_HK_香港_1
+      - 由appviper搜集_🇭🇰_HK_香港_2
+      - 由appviper搜集_🇺🇸_US_美国_1
+      - 由appviper搜集_🇺🇸_US_美国_2
+      - 由appviper搜集_🇺🇸_US_美国_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
