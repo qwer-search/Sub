@@ -5,284 +5,251 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"由【盒子】搜集_🇺🇸_US_美国_1","server":"anzhuo-hezi1.herokuapp.com","port":443,"type":"vmess","uuid":"05b8441f-3c76-4af1-b5b9-dd60d27e5ef8","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
-  - {"name":"由【盒子】搜集_🇮🇪_IE_爱尔兰_2","server":"anzhuo-hezi2.herokuapp.com","port":443,"type":"vmess","uuid":"b7b856c9-2233-4d00-932d-84855a24d17e","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
-  - {"name":"由【盒子】搜集_🇺🇸_US_美国_3","server":"20.24.66.67","port":52332,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"由【盒子】搜集_🇯🇵_JP_日本_4","server":"lin-jp.tgsc.xyz","port":443,"type":"vmess","uuid":"57c95541-5147-4dae-81d0-660cc6b25e9b","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
-  - {"name":"由【盒子】搜集_🇺🇸_US_美国_5","server":"167.88.62.34","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"由【盒子】搜集_🇸🇬_SG_新加坡_6","server":"dynamic-sg2b.obfs.xyz","port":443,"type":"vmess","uuid":"273efd3d-3273-475c-b538-86bfed0030ff","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
-  - {"name":"由【盒子】搜集_🇺🇸_US_美国_7","server":"dynamic-us2b.obfs.xyz","port":443,"type":"vmess","uuid":"21bec0f2-fb1b-480d-85b2-6151fa89fae8","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
-  - {"name":"由【盒子】搜集_🇿🇦_ZA_南非_8","server":"66yun.ckry888.top","port":443,"type":"vmess","uuid":"15db073b-98a5-4297-9263-b21321759159","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
-  - {"name":"由【盒子】搜集_9","server":"els100.jslist.tk","port":8080,"type":"vmess","uuid":"e06987e7-a88e-42c2-ae5b-427c627d1954","alterId":0,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"由【盒子】搜集_🇺🇸_US_美国_10","server":"oioooo.tk","port":443,"type":"trojan","password":"b855d9a1-c5fb-4613-8cb9-7bbc58fcccb4"}
-  - {"name":"由【盒子】搜集_11","server":"sg-aws.licom.ga","port":35047,"type":"vmess","uuid":"ac55ffd3-53bc-43a9-845a-96910c037602","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
-  - {"name":"由【盒子】搜集_🇨🇳_CN_中国_12","server":"gzcm.rymv2rayssl.xyz","port":44608,"type":"trojan","password":"52911320-db53-40ff-917a-e5de797c28e7"}
-  - {"name":"由【盒子】搜集_🇺🇸_US_美国_13","server":"209.141.35.147","port":48919,"type":"trojan","password":"52911320-db53-40ff-917a-e5de797c28e7"}
-  - {"name":"由【盒子】搜集_🇷🇺_RU_俄罗斯联邦_14","server":"sg.xxioixx.com","port":443,"type":"trojan","password":"93bda856-e793-39cd-9a53-a113a80d68a0"}
-  - {"name":"由【盒子】搜集_🇯🇵_JP_日本_15","server":"106.180.225.69","port":1443,"type":"trojan","password":"7x42LetRa0"}
-  - {"name":"由【盒子】搜集_16","server":"vincent-jackson2022.ga","port":443,"type":"vmess","uuid":"5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
-  - {"name":"由【盒子】搜集_17","server":"vincent-jackson2021.ga","port":443,"type":"trojan","password":"a2c47c59-a4c8-4d66-9456-966ba37dedcc"}
-  - {"name":"由【盒子】搜集_18","server":"vincent-jackson2021.ga","port":443,"type":"vmess","uuid":"a2c47c59-a4c8-4d66-9456-966ba37dedcc","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
-  - {"name":"由【盒子】搜集_🇺🇸_US_美国_19","server":"vincent-jackson2022.ml","port":443,"type":"trojan","password":"188741f2-1f14-43cb-be7a-1200a9f4332e"}
-  - {"name":"由【盒子】搜集_🇺🇸_US_美国_20","server":"vincent-jackson2022.ml","port":443,"type":"vmess","uuid":"188741f2-1f14-43cb-be7a-1200a9f4332e","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
-  - {"name":"由【盒子】搜集_🇭🇰_HK_香港_21","server":"104.208.64.48","port":52329,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"由【盒子】搜集_🇫🇷_FR_法国_22","server":"149.202.82.172","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"由【盒子】搜集_🇭🇰_HK_香港_23","server":"104.208.64.48","port":52226,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"由【盒子】搜集_🇱🇻_LV_拉脱维亚_24","server":"lv.tgproxy.wtf","port":2052,"type":"vmess","uuid":"48e0a875-abf7-4fbf-930b-0a3ad8004cbb","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
-  - {"name":"由【盒子】搜集_🇫🇷_FR_法国_25","server":"ovh.fr.tgproxy.wtf","port":8888,"type":"vmess","uuid":"48e0a875-abf7-4fbf-930b-0a3ad8004cbb","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
-  - {"name":"由【盒子】搜集_🇱🇺_LU_卢森堡_26","server":"buyvm.lu.tgproxy.wtf","port":2052,"type":"vmess","uuid":"48e0a875-abf7-4fbf-930b-0a3ad8004cbb","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
-  - {"name":"由【盒子】搜集_🇨🇳_CN_中国_27","server":"120.197.85.73","port":2065,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"708de56e-ada7-4bab-86ce-dadd4beabd62"}
-  - {"name":"由【盒子】搜集_🇨🇳_CN_中国_28","server":"jm.neko.dior.bar","port":49900,"type":"vmess","uuid":"28aff376-c836-4f20-af14-b30ba139be28","alterId":1,"cipher":"auto","tls":false,"network":"ws"}
-  - {"name":"由【盒子】搜集_🇭🇰_HK_香港_29","server":"azhk.insnow.xyz","port":9903,"type":"trojan","password":"b0b540ba-4f07-44da-9941-d2ca309a11cd","sni":"azhk.insnow.xyz"}
-  - {"name":"由【盒子】搜集_🇭🇰_HK_香港_30","server":"hk1.insnow.xyz","port":9901,"type":"trojan","password":"b0b540ba-4f07-44da-9941-d2ca309a11cd","sni":"hk1.insnow.xyz"}
-  - {"name":"由【盒子】搜集_🇭🇰_HK_香港_31","server":"azhk.insnow.xyz","port":9906,"type":"trojan","password":"b0b540ba-4f07-44da-9941-d2ca309a11cd","sni":"azhk.insnow.xyz"}
-  - {"name":"由【盒子】搜集_🇭🇰_HK_香港_32","server":"azhk.insnow.xyz","port":9904,"type":"trojan","password":"b0b540ba-4f07-44da-9941-d2ca309a11cd","sni":"azhk.insnow.xyz"}
-  - {"name":"由【盒子】搜集_🇺🇸_US_美国_33","server":"65.49.216.228","port":41510,"type":"vmess","uuid":"823840ec-b540-4505-a570-0a99ce709e05","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"由【盒子】搜集_🇺🇸_US_美国_34","server":"www.xingog551.xyz","port":446,"type":"vmess","uuid":"624713e9-6f53-4f82-d46b-09568b18109d","alterId":0,"cipher":"auto","tls":true,"network":"tcp"}
-  - {"name":"由【盒子】搜集_🇺🇸_US_美国_35","server":"132.226.114.215","port":4231,"type":"vmess","uuid":"b55712c1-75f0-4495-bac8-68b7789eab18","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"FreeSharePro_%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC_1
+    ","server":"52.198.170.190","port":12736,"type":"vless","uuid":"aba87e3c-405b-48b2-91e0-889a249c7dc9","cipher":"auto","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"FreeSharePro_%F0%9F%87%AD%F0%9F%87%B0_HK_%E9%A6%99%E6%B8%AF_2
+    ","server":"azhk.guiqinghome.ml","port":59861,"type":"vless","uuid":"b9d1ff19-0184-4dad-df1c-b7f890293d07","cipher":"auto","skip-cert-verify":true,"path":"/","network":"http"}
+  - {"name":"FreeSharePro_🇺🇸_US_美国_3","server":"20.24.66.67","port":52332,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"FreeSharePro_🇯🇵_JP_日本_4
+    ","server":"106.180.225.69","port":1443,"type":"trojan","password":"7x42LetRa0"}
+  - {"name":"FreeSharePro_🇨🇳_CN_中国_5
+    ","server":"gzcm.rymv2rayssl.xyz","port":44608,"type":"trojan","password":"52911320-db53-40ff-917a-e5de797c28e7"}
+  - {"name":"FreeSharePro_🇨🇳_CN_中国_6","server":"120.197.85.73","port":2065,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"708de56e-ada7-4bab-86ce-dadd4beabd62"}
+  - {"name":"FreeSharePro_🇫🇷_FR_法国_7","server":"149.202.82.172","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"FreeSharePro_🇺🇸_US_美国_8","server":"65.49.216.228","port":41510,"type":"vmess","uuid":"823840ec-b540-4505-a570-0a99ce709e05","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"FreeSharePro_🇺🇸_US_美国_9","server":"65.49.216.228","port":41510,"type":"vmess","uuid":"823840ec-b540-4505-a570-0a99ce709e05","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
+  - {"name":"FreeSharePro_10
+    ","server":"vincent-jackson2021.ga","port":443,"type":"trojan","password":"a2c47c59-a4c8-4d66-9456-966ba37dedcc"}
+  - {"name":"FreeSharePro_🇷🇺_RU_俄罗斯联邦_11
+    ","server":"sg.xxioixx.com","port":443,"type":"trojan","password":"93bda856-e793-39cd-9a53-a113a80d68a0"}
+  - {"name":"FreeSharePro_🇺🇸_US_美国_12
+    ","server":"209.141.35.147","port":48919,"type":"trojan","password":"52911320-db53-40ff-917a-e5de797c28e7"}
+  - {"name":"FreeSharePro_🇯🇵_JP_日本_13","server":"lin-jp.tgsc.xyz","port":443,"type":"vmess","uuid":"57c95541-5147-4dae-81d0-660cc6b25e9b","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/FNRWR48K"}}
+  - {"name":"FreeSharePro_🇺🇸_US_美国_14","server":"6.lyzghim.com","port":443,"type":"vmess","uuid":"2bb8823b-6938-4c82-87dc-0dee4c118b2d","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/qwe"}}
+  - {"name":"FreeSharePro_🇺🇸_US_美国_15","server":"us1nhg-node.aiqiche123.com","port":13723,"type":"vmess","uuid":"a90597c1-bab3-4217-ad6f-0838675c8634","alterId":10,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"ray"}}
+  - {"name":"FreeSharePro_🇺🇸_US_美国_16","server":"anzhuo-hezi1.herokuapp.com","port":443,"type":"vmess","uuid":"05b8441f-3c76-4af1-b5b9-dd60d27e5ef8","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess"}}
+  - {"name":"FreeSharePro_🇺🇸_US_美国_17","server":"666.lyzghim.com","port":443,"type":"vmess","uuid":"435a71b8-197d-4af8-ea17-7b2f7bb9eeda","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/qwe"}}
+  - {"name":"FreeSharePro_🇸🇬_SG_新加坡_18","server":"dynamic-sg2b.obfs.xyz","port":443,"type":"vmess","uuid":"273efd3d-3273-475c-b538-86bfed0030ff","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/fastssh"}}
+  - {"name":"FreeSharePro_🇺🇸_US_美国_19","server":"els100.jslist.tk","port":8080,"type":"vmess","uuid":"e06987e7-a88e-42c2-ae5b-427c627d1954","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/wo.png","host":"els100.jslist.tk"}}
+  - {"name":"FreeSharePro_🇺🇸_US_美国_20","server":"167.88.62.34","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"FreeSharePro_🇫🇷_FR_法国_21","server":"ovh.fr.tgproxy.wtf","port":8888,"type":"vmess","uuid":"48e0a875-abf7-4fbf-930b-0a3ad8004cbb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi"}}
+  - {"name":"FreeSharePro_🇱🇻_LV_拉脱维亚_22","server":"lv.tgproxy.wtf","port":2052,"type":"vmess","uuid":"48e0a875-abf7-4fbf-930b-0a3ad8004cbb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi"}}
+  - {"name":"FreeSharePro_🇮🇪_IE_爱尔兰_23","server":"anzhuo-hezi2.herokuapp.com","port":443,"type":"vmess","uuid":"b7b856c9-2233-4d00-932d-84855a24d17e","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/b7b856c9-2233-4d00-932d-84855a24d17e-vmess"}}
+  - {"name":"FreeSharePro_🇱🇻_LV_拉脱维亚_24","server":"lv.tgproxy.wtf","port":2052,"type":"vmess","uuid":"48e0a875-abf7-4fbf-930b-0a3ad8004cbb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi"}}
+  - {"name":"FreeSharePro_🇺🇸_US_美国_25","server":"dynamic-us2b.obfs.xyz","port":443,"type":"vmess","uuid":"21bec0f2-fb1b-480d-85b2-6151fa89fae8","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/fastssh"}}
+  - {"name":"FreeSharePro_🇺🇸_US_美国_26
+    ","server":"oioooo.tk","port":443,"type":"trojan","password":"b855d9a1-c5fb-4613-8cb9-7bbc58fcccb4"}
+  - {"name":"FreeSharePro_🇺🇸_US_美国_27
+    ","server":"us.scsevers.cf","port":443,"type":"trojan","password":"PSGTsDwG"}
+  - {"name":"FreeSharePro_🇨🇳_CN_中国_28","server":"jm.neko.dior.bar","port":49900,"type":"vmess","uuid":"28aff376-c836-4f20-af14-b30ba139be28","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","host":"jm.neko.dior.bar"}}
+  - {"name":"defaultName_29","server":"120.197.85.73","port":3080,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"708de56e-ada7-4bab-86ce-dadd4beabd62"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 由【盒子】搜集_🇺🇸_US_美国_1
-      - 由【盒子】搜集_🇮🇪_IE_爱尔兰_2
-      - 由【盒子】搜集_🇺🇸_US_美国_3
-      - 由【盒子】搜集_🇯🇵_JP_日本_4
-      - 由【盒子】搜集_🇺🇸_US_美国_5
-      - 由【盒子】搜集_🇸🇬_SG_新加坡_6
-      - 由【盒子】搜集_🇺🇸_US_美国_7
-      - 由【盒子】搜集_🇿🇦_ZA_南非_8
-      - 由【盒子】搜集_9
-      - 由【盒子】搜集_🇺🇸_US_美国_10
-      - 由【盒子】搜集_11
-      - 由【盒子】搜集_🇨🇳_CN_中国_12
-      - 由【盒子】搜集_🇺🇸_US_美国_13
-      - 由【盒子】搜集_🇷🇺_RU_俄罗斯联邦_14
-      - 由【盒子】搜集_🇯🇵_JP_日本_15
-      - 由【盒子】搜集_16
-      - 由【盒子】搜集_17
-      - 由【盒子】搜集_18
-      - 由【盒子】搜集_🇺🇸_US_美国_19
-      - 由【盒子】搜集_🇺🇸_US_美国_20
-      - 由【盒子】搜集_🇭🇰_HK_香港_21
-      - 由【盒子】搜集_🇫🇷_FR_法国_22
-      - 由【盒子】搜集_🇭🇰_HK_香港_23
-      - 由【盒子】搜集_🇱🇻_LV_拉脱维亚_24
-      - 由【盒子】搜集_🇫🇷_FR_法国_25
-      - 由【盒子】搜集_🇱🇺_LU_卢森堡_26
-      - 由【盒子】搜集_🇨🇳_CN_中国_27
-      - 由【盒子】搜集_🇨🇳_CN_中国_28
-      - 由【盒子】搜集_🇭🇰_HK_香港_29
-      - 由【盒子】搜集_🇭🇰_HK_香港_30
-      - 由【盒子】搜集_🇭🇰_HK_香港_31
-      - 由【盒子】搜集_🇭🇰_HK_香港_32
-      - 由【盒子】搜集_🇺🇸_US_美国_33
-      - 由【盒子】搜集_🇺🇸_US_美国_34
-      - 由【盒子】搜集_🇺🇸_US_美国_35
+      - FreeSharePro_%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC_1
+      - FreeSharePro_%F0%9F%87%AD%F0%9F%87%B0_HK_%E9%A6%99%E6%B8%AF_2
+      - FreeSharePro_🇺🇸_US_美国_3
+      - FreeSharePro_🇯🇵_JP_日本_4
+      - FreeSharePro_🇨🇳_CN_中国_5
+      - FreeSharePro_🇨🇳_CN_中国_6
+      - FreeSharePro_🇫🇷_FR_法国_7
+      - FreeSharePro_🇺🇸_US_美国_8
+      - FreeSharePro_🇺🇸_US_美国_9
+      - FreeSharePro_10
+      - FreeSharePro_🇷🇺_RU_俄罗斯联邦_11
+      - FreeSharePro_🇺🇸_US_美国_12
+      - FreeSharePro_🇯🇵_JP_日本_13
+      - FreeSharePro_🇺🇸_US_美国_14
+      - FreeSharePro_🇺🇸_US_美国_15
+      - FreeSharePro_🇺🇸_US_美国_16
+      - FreeSharePro_🇺🇸_US_美国_17
+      - FreeSharePro_🇸🇬_SG_新加坡_18
+      - FreeSharePro_🇺🇸_US_美国_19
+      - FreeSharePro_🇺🇸_US_美国_20
+      - FreeSharePro_🇫🇷_FR_法国_21
+      - FreeSharePro_🇱🇻_LV_拉脱维亚_22
+      - FreeSharePro_🇮🇪_IE_爱尔兰_23
+      - FreeSharePro_🇱🇻_LV_拉脱维亚_24
+      - FreeSharePro_🇺🇸_US_美国_25
+      - FreeSharePro_🇺🇸_US_美国_26
+      - FreeSharePro_🇺🇸_US_美国_27
+      - FreeSharePro_🇨🇳_CN_中国_28
+      - defaultName_29
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 由【盒子】搜集_🇺🇸_US_美国_1
-      - 由【盒子】搜集_🇮🇪_IE_爱尔兰_2
-      - 由【盒子】搜集_🇺🇸_US_美国_3
-      - 由【盒子】搜集_🇯🇵_JP_日本_4
-      - 由【盒子】搜集_🇺🇸_US_美国_5
-      - 由【盒子】搜集_🇸🇬_SG_新加坡_6
-      - 由【盒子】搜集_🇺🇸_US_美国_7
-      - 由【盒子】搜集_🇿🇦_ZA_南非_8
-      - 由【盒子】搜集_9
-      - 由【盒子】搜集_🇺🇸_US_美国_10
-      - 由【盒子】搜集_11
-      - 由【盒子】搜集_🇨🇳_CN_中国_12
-      - 由【盒子】搜集_🇺🇸_US_美国_13
-      - 由【盒子】搜集_🇷🇺_RU_俄罗斯联邦_14
-      - 由【盒子】搜集_🇯🇵_JP_日本_15
-      - 由【盒子】搜集_16
-      - 由【盒子】搜集_17
-      - 由【盒子】搜集_18
-      - 由【盒子】搜集_🇺🇸_US_美国_19
-      - 由【盒子】搜集_🇺🇸_US_美国_20
-      - 由【盒子】搜集_🇭🇰_HK_香港_21
-      - 由【盒子】搜集_🇫🇷_FR_法国_22
-      - 由【盒子】搜集_🇭🇰_HK_香港_23
-      - 由【盒子】搜集_🇱🇻_LV_拉脱维亚_24
-      - 由【盒子】搜集_🇫🇷_FR_法国_25
-      - 由【盒子】搜集_🇱🇺_LU_卢森堡_26
-      - 由【盒子】搜集_🇨🇳_CN_中国_27
-      - 由【盒子】搜集_🇨🇳_CN_中国_28
-      - 由【盒子】搜集_🇭🇰_HK_香港_29
-      - 由【盒子】搜集_🇭🇰_HK_香港_30
-      - 由【盒子】搜集_🇭🇰_HK_香港_31
-      - 由【盒子】搜集_🇭🇰_HK_香港_32
-      - 由【盒子】搜集_🇺🇸_US_美国_33
-      - 由【盒子】搜集_🇺🇸_US_美国_34
-      - 由【盒子】搜集_🇺🇸_US_美国_35
+      - FreeSharePro_%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC_1
+      - FreeSharePro_%F0%9F%87%AD%F0%9F%87%B0_HK_%E9%A6%99%E6%B8%AF_2
+      - FreeSharePro_🇺🇸_US_美国_3
+      - FreeSharePro_🇯🇵_JP_日本_4
+      - FreeSharePro_🇨🇳_CN_中国_5
+      - FreeSharePro_🇨🇳_CN_中国_6
+      - FreeSharePro_🇫🇷_FR_法国_7
+      - FreeSharePro_🇺🇸_US_美国_8
+      - FreeSharePro_🇺🇸_US_美国_9
+      - FreeSharePro_10
+      - FreeSharePro_🇷🇺_RU_俄罗斯联邦_11
+      - FreeSharePro_🇺🇸_US_美国_12
+      - FreeSharePro_🇯🇵_JP_日本_13
+      - FreeSharePro_🇺🇸_US_美国_14
+      - FreeSharePro_🇺🇸_US_美国_15
+      - FreeSharePro_🇺🇸_US_美国_16
+      - FreeSharePro_🇺🇸_US_美国_17
+      - FreeSharePro_🇸🇬_SG_新加坡_18
+      - FreeSharePro_🇺🇸_US_美国_19
+      - FreeSharePro_🇺🇸_US_美国_20
+      - FreeSharePro_🇫🇷_FR_法国_21
+      - FreeSharePro_🇱🇻_LV_拉脱维亚_22
+      - FreeSharePro_🇮🇪_IE_爱尔兰_23
+      - FreeSharePro_🇱🇻_LV_拉脱维亚_24
+      - FreeSharePro_🇺🇸_US_美国_25
+      - FreeSharePro_🇺🇸_US_美国_26
+      - FreeSharePro_🇺🇸_US_美国_27
+      - FreeSharePro_🇨🇳_CN_中国_28
+      - defaultName_29
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 由【盒子】搜集_🇺🇸_US_美国_1
-      - 由【盒子】搜集_🇮🇪_IE_爱尔兰_2
-      - 由【盒子】搜集_🇺🇸_US_美国_3
-      - 由【盒子】搜集_🇯🇵_JP_日本_4
-      - 由【盒子】搜集_🇺🇸_US_美国_5
-      - 由【盒子】搜集_🇸🇬_SG_新加坡_6
-      - 由【盒子】搜集_🇺🇸_US_美国_7
-      - 由【盒子】搜集_🇿🇦_ZA_南非_8
-      - 由【盒子】搜集_9
-      - 由【盒子】搜集_🇺🇸_US_美国_10
-      - 由【盒子】搜集_11
-      - 由【盒子】搜集_🇨🇳_CN_中国_12
-      - 由【盒子】搜集_🇺🇸_US_美国_13
-      - 由【盒子】搜集_🇷🇺_RU_俄罗斯联邦_14
-      - 由【盒子】搜集_🇯🇵_JP_日本_15
-      - 由【盒子】搜集_16
-      - 由【盒子】搜集_17
-      - 由【盒子】搜集_18
-      - 由【盒子】搜集_🇺🇸_US_美国_19
-      - 由【盒子】搜集_🇺🇸_US_美国_20
-      - 由【盒子】搜集_🇭🇰_HK_香港_21
-      - 由【盒子】搜集_🇫🇷_FR_法国_22
-      - 由【盒子】搜集_🇭🇰_HK_香港_23
-      - 由【盒子】搜集_🇱🇻_LV_拉脱维亚_24
-      - 由【盒子】搜集_🇫🇷_FR_法国_25
-      - 由【盒子】搜集_🇱🇺_LU_卢森堡_26
-      - 由【盒子】搜集_🇨🇳_CN_中国_27
-      - 由【盒子】搜集_🇨🇳_CN_中国_28
-      - 由【盒子】搜集_🇭🇰_HK_香港_29
-      - 由【盒子】搜集_🇭🇰_HK_香港_30
-      - 由【盒子】搜集_🇭🇰_HK_香港_31
-      - 由【盒子】搜集_🇭🇰_HK_香港_32
-      - 由【盒子】搜集_🇺🇸_US_美国_33
-      - 由【盒子】搜集_🇺🇸_US_美国_34
-      - 由【盒子】搜集_🇺🇸_US_美国_35
+      - FreeSharePro_%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC_1
+      - FreeSharePro_%F0%9F%87%AD%F0%9F%87%B0_HK_%E9%A6%99%E6%B8%AF_2
+      - FreeSharePro_🇺🇸_US_美国_3
+      - FreeSharePro_🇯🇵_JP_日本_4
+      - FreeSharePro_🇨🇳_CN_中国_5
+      - FreeSharePro_🇨🇳_CN_中国_6
+      - FreeSharePro_🇫🇷_FR_法国_7
+      - FreeSharePro_🇺🇸_US_美国_8
+      - FreeSharePro_🇺🇸_US_美国_9
+      - FreeSharePro_10
+      - FreeSharePro_🇷🇺_RU_俄罗斯联邦_11
+      - FreeSharePro_🇺🇸_US_美国_12
+      - FreeSharePro_🇯🇵_JP_日本_13
+      - FreeSharePro_🇺🇸_US_美国_14
+      - FreeSharePro_🇺🇸_US_美国_15
+      - FreeSharePro_🇺🇸_US_美国_16
+      - FreeSharePro_🇺🇸_US_美国_17
+      - FreeSharePro_🇸🇬_SG_新加坡_18
+      - FreeSharePro_🇺🇸_US_美国_19
+      - FreeSharePro_🇺🇸_US_美国_20
+      - FreeSharePro_🇫🇷_FR_法国_21
+      - FreeSharePro_🇱🇻_LV_拉脱维亚_22
+      - FreeSharePro_🇮🇪_IE_爱尔兰_23
+      - FreeSharePro_🇱🇻_LV_拉脱维亚_24
+      - FreeSharePro_🇺🇸_US_美国_25
+      - FreeSharePro_🇺🇸_US_美国_26
+      - FreeSharePro_🇺🇸_US_美国_27
+      - FreeSharePro_🇨🇳_CN_中国_28
+      - defaultName_29
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 由【盒子】搜集_🇺🇸_US_美国_1
-      - 由【盒子】搜集_🇮🇪_IE_爱尔兰_2
-      - 由【盒子】搜集_🇺🇸_US_美国_3
-      - 由【盒子】搜集_🇯🇵_JP_日本_4
-      - 由【盒子】搜集_🇺🇸_US_美国_5
-      - 由【盒子】搜集_🇸🇬_SG_新加坡_6
-      - 由【盒子】搜集_🇺🇸_US_美国_7
-      - 由【盒子】搜集_🇿🇦_ZA_南非_8
-      - 由【盒子】搜集_9
-      - 由【盒子】搜集_🇺🇸_US_美国_10
-      - 由【盒子】搜集_11
-      - 由【盒子】搜集_🇨🇳_CN_中国_12
-      - 由【盒子】搜集_🇺🇸_US_美国_13
-      - 由【盒子】搜集_🇷🇺_RU_俄罗斯联邦_14
-      - 由【盒子】搜集_🇯🇵_JP_日本_15
-      - 由【盒子】搜集_16
-      - 由【盒子】搜集_17
-      - 由【盒子】搜集_18
-      - 由【盒子】搜集_🇺🇸_US_美国_19
-      - 由【盒子】搜集_🇺🇸_US_美国_20
-      - 由【盒子】搜集_🇭🇰_HK_香港_21
-      - 由【盒子】搜集_🇫🇷_FR_法国_22
-      - 由【盒子】搜集_🇭🇰_HK_香港_23
-      - 由【盒子】搜集_🇱🇻_LV_拉脱维亚_24
-      - 由【盒子】搜集_🇫🇷_FR_法国_25
-      - 由【盒子】搜集_🇱🇺_LU_卢森堡_26
-      - 由【盒子】搜集_🇨🇳_CN_中国_27
-      - 由【盒子】搜集_🇨🇳_CN_中国_28
-      - 由【盒子】搜集_🇭🇰_HK_香港_29
-      - 由【盒子】搜集_🇭🇰_HK_香港_30
-      - 由【盒子】搜集_🇭🇰_HK_香港_31
-      - 由【盒子】搜集_🇭🇰_HK_香港_32
-      - 由【盒子】搜集_🇺🇸_US_美国_33
-      - 由【盒子】搜集_🇺🇸_US_美国_34
-      - 由【盒子】搜集_🇺🇸_US_美国_35
+      - FreeSharePro_%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC_1
+      - FreeSharePro_%F0%9F%87%AD%F0%9F%87%B0_HK_%E9%A6%99%E6%B8%AF_2
+      - FreeSharePro_🇺🇸_US_美国_3
+      - FreeSharePro_🇯🇵_JP_日本_4
+      - FreeSharePro_🇨🇳_CN_中国_5
+      - FreeSharePro_🇨🇳_CN_中国_6
+      - FreeSharePro_🇫🇷_FR_法国_7
+      - FreeSharePro_🇺🇸_US_美国_8
+      - FreeSharePro_🇺🇸_US_美国_9
+      - FreeSharePro_10
+      - FreeSharePro_🇷🇺_RU_俄罗斯联邦_11
+      - FreeSharePro_🇺🇸_US_美国_12
+      - FreeSharePro_🇯🇵_JP_日本_13
+      - FreeSharePro_🇺🇸_US_美国_14
+      - FreeSharePro_🇺🇸_US_美国_15
+      - FreeSharePro_🇺🇸_US_美国_16
+      - FreeSharePro_🇺🇸_US_美国_17
+      - FreeSharePro_🇸🇬_SG_新加坡_18
+      - FreeSharePro_🇺🇸_US_美国_19
+      - FreeSharePro_🇺🇸_US_美国_20
+      - FreeSharePro_🇫🇷_FR_法国_21
+      - FreeSharePro_🇱🇻_LV_拉脱维亚_22
+      - FreeSharePro_🇮🇪_IE_爱尔兰_23
+      - FreeSharePro_🇱🇻_LV_拉脱维亚_24
+      - FreeSharePro_🇺🇸_US_美国_25
+      - FreeSharePro_🇺🇸_US_美国_26
+      - FreeSharePro_🇺🇸_US_美国_27
+      - FreeSharePro_🇨🇳_CN_中国_28
+      - defaultName_29
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 由【盒子】搜集_🇺🇸_US_美国_1
-      - 由【盒子】搜集_🇮🇪_IE_爱尔兰_2
-      - 由【盒子】搜集_🇺🇸_US_美国_3
-      - 由【盒子】搜集_🇯🇵_JP_日本_4
-      - 由【盒子】搜集_🇺🇸_US_美国_5
-      - 由【盒子】搜集_🇸🇬_SG_新加坡_6
-      - 由【盒子】搜集_🇺🇸_US_美国_7
-      - 由【盒子】搜集_🇿🇦_ZA_南非_8
-      - 由【盒子】搜集_9
-      - 由【盒子】搜集_🇺🇸_US_美国_10
-      - 由【盒子】搜集_11
-      - 由【盒子】搜集_🇨🇳_CN_中国_12
-      - 由【盒子】搜集_🇺🇸_US_美国_13
-      - 由【盒子】搜集_🇷🇺_RU_俄罗斯联邦_14
-      - 由【盒子】搜集_🇯🇵_JP_日本_15
-      - 由【盒子】搜集_16
-      - 由【盒子】搜集_17
-      - 由【盒子】搜集_18
-      - 由【盒子】搜集_🇺🇸_US_美国_19
-      - 由【盒子】搜集_🇺🇸_US_美国_20
-      - 由【盒子】搜集_🇭🇰_HK_香港_21
-      - 由【盒子】搜集_🇫🇷_FR_法国_22
-      - 由【盒子】搜集_🇭🇰_HK_香港_23
-      - 由【盒子】搜集_🇱🇻_LV_拉脱维亚_24
-      - 由【盒子】搜集_🇫🇷_FR_法国_25
-      - 由【盒子】搜集_🇱🇺_LU_卢森堡_26
-      - 由【盒子】搜集_🇨🇳_CN_中国_27
-      - 由【盒子】搜集_🇨🇳_CN_中国_28
-      - 由【盒子】搜集_🇭🇰_HK_香港_29
-      - 由【盒子】搜集_🇭🇰_HK_香港_30
-      - 由【盒子】搜集_🇭🇰_HK_香港_31
-      - 由【盒子】搜集_🇭🇰_HK_香港_32
-      - 由【盒子】搜集_🇺🇸_US_美国_33
-      - 由【盒子】搜集_🇺🇸_US_美国_34
-      - 由【盒子】搜集_🇺🇸_US_美国_35
+      - FreeSharePro_%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC_1
+      - FreeSharePro_%F0%9F%87%AD%F0%9F%87%B0_HK_%E9%A6%99%E6%B8%AF_2
+      - FreeSharePro_🇺🇸_US_美国_3
+      - FreeSharePro_🇯🇵_JP_日本_4
+      - FreeSharePro_🇨🇳_CN_中国_5
+      - FreeSharePro_🇨🇳_CN_中国_6
+      - FreeSharePro_🇫🇷_FR_法国_7
+      - FreeSharePro_🇺🇸_US_美国_8
+      - FreeSharePro_🇺🇸_US_美国_9
+      - FreeSharePro_10
+      - FreeSharePro_🇷🇺_RU_俄罗斯联邦_11
+      - FreeSharePro_🇺🇸_US_美国_12
+      - FreeSharePro_🇯🇵_JP_日本_13
+      - FreeSharePro_🇺🇸_US_美国_14
+      - FreeSharePro_🇺🇸_US_美国_15
+      - FreeSharePro_🇺🇸_US_美国_16
+      - FreeSharePro_🇺🇸_US_美国_17
+      - FreeSharePro_🇸🇬_SG_新加坡_18
+      - FreeSharePro_🇺🇸_US_美国_19
+      - FreeSharePro_🇺🇸_US_美国_20
+      - FreeSharePro_🇫🇷_FR_法国_21
+      - FreeSharePro_🇱🇻_LV_拉脱维亚_22
+      - FreeSharePro_🇮🇪_IE_爱尔兰_23
+      - FreeSharePro_🇱🇻_LV_拉脱维亚_24
+      - FreeSharePro_🇺🇸_US_美国_25
+      - FreeSharePro_🇺🇸_US_美国_26
+      - FreeSharePro_🇺🇸_US_美国_27
+      - FreeSharePro_🇨🇳_CN_中国_28
+      - defaultName_29
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 由【盒子】搜集_🇺🇸_US_美国_1
-      - 由【盒子】搜集_🇮🇪_IE_爱尔兰_2
-      - 由【盒子】搜集_🇺🇸_US_美国_3
-      - 由【盒子】搜集_🇯🇵_JP_日本_4
-      - 由【盒子】搜集_🇺🇸_US_美国_5
-      - 由【盒子】搜集_🇸🇬_SG_新加坡_6
-      - 由【盒子】搜集_🇺🇸_US_美国_7
-      - 由【盒子】搜集_🇿🇦_ZA_南非_8
-      - 由【盒子】搜集_9
-      - 由【盒子】搜集_🇺🇸_US_美国_10
-      - 由【盒子】搜集_11
-      - 由【盒子】搜集_🇨🇳_CN_中国_12
-      - 由【盒子】搜集_🇺🇸_US_美国_13
-      - 由【盒子】搜集_🇷🇺_RU_俄罗斯联邦_14
-      - 由【盒子】搜集_🇯🇵_JP_日本_15
-      - 由【盒子】搜集_16
-      - 由【盒子】搜集_17
-      - 由【盒子】搜集_18
-      - 由【盒子】搜集_🇺🇸_US_美国_19
-      - 由【盒子】搜集_🇺🇸_US_美国_20
-      - 由【盒子】搜集_🇭🇰_HK_香港_21
-      - 由【盒子】搜集_🇫🇷_FR_法国_22
-      - 由【盒子】搜集_🇭🇰_HK_香港_23
-      - 由【盒子】搜集_🇱🇻_LV_拉脱维亚_24
-      - 由【盒子】搜集_🇫🇷_FR_法国_25
-      - 由【盒子】搜集_🇱🇺_LU_卢森堡_26
-      - 由【盒子】搜集_🇨🇳_CN_中国_27
-      - 由【盒子】搜集_🇨🇳_CN_中国_28
-      - 由【盒子】搜集_🇭🇰_HK_香港_29
-      - 由【盒子】搜集_🇭🇰_HK_香港_30
-      - 由【盒子】搜集_🇭🇰_HK_香港_31
-      - 由【盒子】搜集_🇭🇰_HK_香港_32
-      - 由【盒子】搜集_🇺🇸_US_美国_33
-      - 由【盒子】搜集_🇺🇸_US_美国_34
-      - 由【盒子】搜集_🇺🇸_US_美国_35
+      - FreeSharePro_%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC_1
+      - FreeSharePro_%F0%9F%87%AD%F0%9F%87%B0_HK_%E9%A6%99%E6%B8%AF_2
+      - FreeSharePro_🇺🇸_US_美国_3
+      - FreeSharePro_🇯🇵_JP_日本_4
+      - FreeSharePro_🇨🇳_CN_中国_5
+      - FreeSharePro_🇨🇳_CN_中国_6
+      - FreeSharePro_🇫🇷_FR_法国_7
+      - FreeSharePro_🇺🇸_US_美国_8
+      - FreeSharePro_🇺🇸_US_美国_9
+      - FreeSharePro_10
+      - FreeSharePro_🇷🇺_RU_俄罗斯联邦_11
+      - FreeSharePro_🇺🇸_US_美国_12
+      - FreeSharePro_🇯🇵_JP_日本_13
+      - FreeSharePro_🇺🇸_US_美国_14
+      - FreeSharePro_🇺🇸_US_美国_15
+      - FreeSharePro_🇺🇸_US_美国_16
+      - FreeSharePro_🇺🇸_US_美国_17
+      - FreeSharePro_🇸🇬_SG_新加坡_18
+      - FreeSharePro_🇺🇸_US_美国_19
+      - FreeSharePro_🇺🇸_US_美国_20
+      - FreeSharePro_🇫🇷_FR_法国_21
+      - FreeSharePro_🇱🇻_LV_拉脱维亚_22
+      - FreeSharePro_🇮🇪_IE_爱尔兰_23
+      - FreeSharePro_🇱🇻_LV_拉脱维亚_24
+      - FreeSharePro_🇺🇸_US_美国_25
+      - FreeSharePro_🇺🇸_US_美国_26
+      - FreeSharePro_🇺🇸_US_美国_27
+      - FreeSharePro_🇨🇳_CN_中国_28
+      - defaultName_29
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -305,41 +272,35 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 由【盒子】搜集_🇺🇸_US_美国_1
-      - 由【盒子】搜集_🇮🇪_IE_爱尔兰_2
-      - 由【盒子】搜集_🇺🇸_US_美国_3
-      - 由【盒子】搜集_🇯🇵_JP_日本_4
-      - 由【盒子】搜集_🇺🇸_US_美国_5
-      - 由【盒子】搜集_🇸🇬_SG_新加坡_6
-      - 由【盒子】搜集_🇺🇸_US_美国_7
-      - 由【盒子】搜集_🇿🇦_ZA_南非_8
-      - 由【盒子】搜集_9
-      - 由【盒子】搜集_🇺🇸_US_美国_10
-      - 由【盒子】搜集_11
-      - 由【盒子】搜集_🇨🇳_CN_中国_12
-      - 由【盒子】搜集_🇺🇸_US_美国_13
-      - 由【盒子】搜集_🇷🇺_RU_俄罗斯联邦_14
-      - 由【盒子】搜集_🇯🇵_JP_日本_15
-      - 由【盒子】搜集_16
-      - 由【盒子】搜集_17
-      - 由【盒子】搜集_18
-      - 由【盒子】搜集_🇺🇸_US_美国_19
-      - 由【盒子】搜集_🇺🇸_US_美国_20
-      - 由【盒子】搜集_🇭🇰_HK_香港_21
-      - 由【盒子】搜集_🇫🇷_FR_法国_22
-      - 由【盒子】搜集_🇭🇰_HK_香港_23
-      - 由【盒子】搜集_🇱🇻_LV_拉脱维亚_24
-      - 由【盒子】搜集_🇫🇷_FR_法国_25
-      - 由【盒子】搜集_🇱🇺_LU_卢森堡_26
-      - 由【盒子】搜集_🇨🇳_CN_中国_27
-      - 由【盒子】搜集_🇨🇳_CN_中国_28
-      - 由【盒子】搜集_🇭🇰_HK_香港_29
-      - 由【盒子】搜集_🇭🇰_HK_香港_30
-      - 由【盒子】搜集_🇭🇰_HK_香港_31
-      - 由【盒子】搜集_🇭🇰_HK_香港_32
-      - 由【盒子】搜集_🇺🇸_US_美国_33
-      - 由【盒子】搜集_🇺🇸_US_美国_34
-      - 由【盒子】搜集_🇺🇸_US_美国_35
+      - FreeSharePro_%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC_1
+      - FreeSharePro_%F0%9F%87%AD%F0%9F%87%B0_HK_%E9%A6%99%E6%B8%AF_2
+      - FreeSharePro_🇺🇸_US_美国_3
+      - FreeSharePro_🇯🇵_JP_日本_4
+      - FreeSharePro_🇨🇳_CN_中国_5
+      - FreeSharePro_🇨🇳_CN_中国_6
+      - FreeSharePro_🇫🇷_FR_法国_7
+      - FreeSharePro_🇺🇸_US_美国_8
+      - FreeSharePro_🇺🇸_US_美国_9
+      - FreeSharePro_10
+      - FreeSharePro_🇷🇺_RU_俄罗斯联邦_11
+      - FreeSharePro_🇺🇸_US_美国_12
+      - FreeSharePro_🇯🇵_JP_日本_13
+      - FreeSharePro_🇺🇸_US_美国_14
+      - FreeSharePro_🇺🇸_US_美国_15
+      - FreeSharePro_🇺🇸_US_美国_16
+      - FreeSharePro_🇺🇸_US_美国_17
+      - FreeSharePro_🇸🇬_SG_新加坡_18
+      - FreeSharePro_🇺🇸_US_美国_19
+      - FreeSharePro_🇺🇸_US_美国_20
+      - FreeSharePro_🇫🇷_FR_法国_21
+      - FreeSharePro_🇱🇻_LV_拉脱维亚_22
+      - FreeSharePro_🇮🇪_IE_爱尔兰_23
+      - FreeSharePro_🇱🇻_LV_拉脱维亚_24
+      - FreeSharePro_🇺🇸_US_美国_25
+      - FreeSharePro_🇺🇸_US_美国_26
+      - FreeSharePro_🇺🇸_US_美国_27
+      - FreeSharePro_🇨🇳_CN_中国_28
+      - defaultName_29
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
