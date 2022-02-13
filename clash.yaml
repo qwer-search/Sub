@@ -5,43 +5,32 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"FreeSharePro_%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC_1
-    ","server":"52.198.170.190","port":12736,"type":"vless","uuid":"aba87e3c-405b-48b2-91e0-889a249c7dc9","cipher":"auto","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"FreeSharePro_%F0%9F%87%AD%F0%9F%87%B0_HK_%E9%A6%99%E6%B8%AF_2
-    ","server":"azhk.guiqinghome.ml","port":59861,"type":"vless","uuid":"b9d1ff19-0184-4dad-df1c-b7f890293d07","cipher":"auto","skip-cert-verify":true,"path":"/","network":"http"}
   - {"name":"FreeSharePro_🇺🇸_US_美国_3","server":"20.24.66.67","port":52332,"type":"vmess","uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"FreeSharePro_🇯🇵_JP_日本_4
-    ","server":"106.180.225.69","port":1443,"type":"trojan","password":"7x42LetRa0"}
-  - {"name":"FreeSharePro_🇨🇳_CN_中国_5
-    ","server":"gzcm.rymv2rayssl.xyz","port":44608,"type":"trojan","password":"52911320-db53-40ff-917a-e5de797c28e7"}
+  - {"name":"FreeSharePro_🇯🇵_JP_日本_4","server":"106.180.225.69","port":1443,"type":"trojan","password":"7x42LetRa0"}
+  - {"name":"FreeSharePro_🇨🇳_CN_中国_5","server":"gzcm.rymv2rayssl.xyz","port":44608,"type":"trojan","password":"52911320-db53-40ff-917a-e5de797c28e7"}
   - {"name":"FreeSharePro_🇨🇳_CN_中国_6","server":"120.197.85.73","port":2065,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"708de56e-ada7-4bab-86ce-dadd4beabd62"}
   - {"name":"FreeSharePro_🇫🇷_FR_法国_7","server":"149.202.82.172","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
   - {"name":"FreeSharePro_🇺🇸_US_美国_8","server":"65.49.216.228","port":41510,"type":"vmess","uuid":"823840ec-b540-4505-a570-0a99ce709e05","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
   - {"name":"FreeSharePro_🇺🇸_US_美国_9","server":"65.49.216.228","port":41510,"type":"vmess","uuid":"823840ec-b540-4505-a570-0a99ce709e05","alterId":0,"cipher":"auto","tls":false,"network":"tcp"}
-  - {"name":"FreeSharePro_10
-    ","server":"vincent-jackson2021.ga","port":443,"type":"trojan","password":"a2c47c59-a4c8-4d66-9456-966ba37dedcc"}
-  - {"name":"FreeSharePro_🇷🇺_RU_俄罗斯联邦_11
-    ","server":"sg.xxioixx.com","port":443,"type":"trojan","password":"93bda856-e793-39cd-9a53-a113a80d68a0"}
-  - {"name":"FreeSharePro_🇺🇸_US_美国_12
-    ","server":"209.141.35.147","port":48919,"type":"trojan","password":"52911320-db53-40ff-917a-e5de797c28e7"}
-  - {"name":"FreeSharePro_🇯🇵_JP_日本_13","server":"lin-jp.tgsc.xyz","port":443,"type":"vmess","uuid":"57c95541-5147-4dae-81d0-660cc6b25e9b","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/FNRWR48K"}}
-  - {"name":"FreeSharePro_🇺🇸_US_美国_14","server":"6.lyzghim.com","port":443,"type":"vmess","uuid":"2bb8823b-6938-4c82-87dc-0dee4c118b2d","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/qwe"}}
-  - {"name":"FreeSharePro_🇺🇸_US_美国_15","server":"us1nhg-node.aiqiche123.com","port":13723,"type":"vmess","uuid":"a90597c1-bab3-4217-ad6f-0838675c8634","alterId":10,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"ray"}}
-  - {"name":"FreeSharePro_🇺🇸_US_美国_16","server":"anzhuo-hezi1.herokuapp.com","port":443,"type":"vmess","uuid":"05b8441f-3c76-4af1-b5b9-dd60d27e5ef8","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess"}}
-  - {"name":"FreeSharePro_🇺🇸_US_美国_17","server":"666.lyzghim.com","port":443,"type":"vmess","uuid":"435a71b8-197d-4af8-ea17-7b2f7bb9eeda","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/qwe"}}
-  - {"name":"FreeSharePro_🇸🇬_SG_新加坡_18","server":"dynamic-sg2b.obfs.xyz","port":443,"type":"vmess","uuid":"273efd3d-3273-475c-b538-86bfed0030ff","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/fastssh"}}
-  - {"name":"FreeSharePro_🇺🇸_US_美国_19","server":"els100.jslist.tk","port":8080,"type":"vmess","uuid":"e06987e7-a88e-42c2-ae5b-427c627d1954","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/wo.png","host":"els100.jslist.tk"}}
+  - {"name":"FreeSharePro_10","server":"vincent-jackson2021.ga","port":443,"type":"trojan","password":"a2c47c59-a4c8-4d66-9456-966ba37dedcc"}
+  - {"name":"FreeSharePro_🇷🇺_RU_俄罗斯联邦_11","server":"sg.xxioixx.com","port":443,"type":"trojan","password":"93bda856-e793-39cd-9a53-a113a80d68a0"}
+  - {"name":"FreeSharePro_🇺🇸_US_美国_12","server":"209.141.35.147","port":48919,"type":"trojan","password":"52911320-db53-40ff-917a-e5de797c28e7"}
+  - {"name":"FreeSharePro_🇯🇵_JP_日本_13","server":"lin-jp.tgsc.xyz","port":443,"type":"vmess","uuid":"57c95541-5147-4dae-81d0-660cc6b25e9b","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"FreeSharePro_🇺🇸_US_美国_14","server":"6.lyzghim.com","port":443,"type":"vmess","uuid":"2bb8823b-6938-4c82-87dc-0dee4c118b2d","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"FreeSharePro_🇺🇸_US_美国_15","server":"us1nhg-node.aiqiche123.com","port":13723,"type":"vmess","uuid":"a90597c1-bab3-4217-ad6f-0838675c8634","alterId":10,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"FreeSharePro_🇺🇸_US_美国_16","server":"anzhuo-hezi1.herokuapp.com","port":443,"type":"vmess","uuid":"05b8441f-3c76-4af1-b5b9-dd60d27e5ef8","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"FreeSharePro_🇺🇸_US_美国_17","server":"666.lyzghim.com","port":443,"type":"vmess","uuid":"435a71b8-197d-4af8-ea17-7b2f7bb9eeda","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"FreeSharePro_🇸🇬_SG_新加坡_18","server":"dynamic-sg2b.obfs.xyz","port":443,"type":"vmess","uuid":"273efd3d-3273-475c-b538-86bfed0030ff","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"FreeSharePro_🇺🇸_US_美国_19","server":"els100.jslist.tk","port":8080,"type":"vmess","uuid":"e06987e7-a88e-42c2-ae5b-427c627d1954","alterId":0,"cipher":"auto","tls":false,"network":"ws"}
   - {"name":"FreeSharePro_🇺🇸_US_美国_20","server":"167.88.62.34","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"FreeSharePro_🇫🇷_FR_法国_21","server":"ovh.fr.tgproxy.wtf","port":8888,"type":"vmess","uuid":"48e0a875-abf7-4fbf-930b-0a3ad8004cbb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi"}}
-  - {"name":"FreeSharePro_🇱🇻_LV_拉脱维亚_22","server":"lv.tgproxy.wtf","port":2052,"type":"vmess","uuid":"48e0a875-abf7-4fbf-930b-0a3ad8004cbb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi"}}
-  - {"name":"FreeSharePro_🇮🇪_IE_爱尔兰_23","server":"anzhuo-hezi2.herokuapp.com","port":443,"type":"vmess","uuid":"b7b856c9-2233-4d00-932d-84855a24d17e","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/b7b856c9-2233-4d00-932d-84855a24d17e-vmess"}}
-  - {"name":"FreeSharePro_🇱🇻_LV_拉脱维亚_24","server":"lv.tgproxy.wtf","port":2052,"type":"vmess","uuid":"48e0a875-abf7-4fbf-930b-0a3ad8004cbb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/theuploadapi"}}
-  - {"name":"FreeSharePro_🇺🇸_US_美国_25","server":"dynamic-us2b.obfs.xyz","port":443,"type":"vmess","uuid":"21bec0f2-fb1b-480d-85b2-6151fa89fae8","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/fastssh"}}
-  - {"name":"FreeSharePro_🇺🇸_US_美国_26
-    ","server":"oioooo.tk","port":443,"type":"trojan","password":"b855d9a1-c5fb-4613-8cb9-7bbc58fcccb4"}
-  - {"name":"FreeSharePro_🇺🇸_US_美国_27
-    ","server":"us.scsevers.cf","port":443,"type":"trojan","password":"PSGTsDwG"}
-  - {"name":"FreeSharePro_🇨🇳_CN_中国_28","server":"jm.neko.dior.bar","port":49900,"type":"vmess","uuid":"28aff376-c836-4f20-af14-b30ba139be28","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","host":"jm.neko.dior.bar"}}
+  - {"name":"FreeSharePro_🇫🇷_FR_法国_21","server":"ovh.fr.tgproxy.wtf","port":8888,"type":"vmess","uuid":"48e0a875-abf7-4fbf-930b-0a3ad8004cbb","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"FreeSharePro_🇱🇻_LV_拉脱维亚_22","server":"lv.tgproxy.wtf","port":2052,"type":"vmess","uuid":"48e0a875-abf7-4fbf-930b-0a3ad8004cbb","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"FreeSharePro_🇮🇪_IE_爱尔兰_23","server":"anzhuo-hezi2.herokuapp.com","port":443,"type":"vmess","uuid":"b7b856c9-2233-4d00-932d-84855a24d17e","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"FreeSharePro_🇱🇻_LV_拉脱维亚_24","server":"lv.tgproxy.wtf","port":2052,"type":"vmess","uuid":"48e0a875-abf7-4fbf-930b-0a3ad8004cbb","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"FreeSharePro_🇺🇸_US_美国_25","server":"dynamic-us2b.obfs.xyz","port":443,"type":"vmess","uuid":"21bec0f2-fb1b-480d-85b2-6151fa89fae8","alterId":0,"cipher":"auto","tls":true,"network":"ws"}
+  - {"name":"FreeSharePro_🇺🇸_US_美国_26","server":"oioooo.tk","port":443,"type":"trojan","password":"b855d9a1-c5fb-4613-8cb9-7bbc58fcccb4"}
+  - {"name":"FreeSharePro_🇺🇸_US_美国_27","server":"us.scsevers.cf","port":443,"type":"trojan","password":"PSGTsDwG"}
+  - {"name":"FreeSharePro_🇨🇳_CN_中国_28","server":"jm.neko.dior.bar","port":49900,"type":"vmess","uuid":"28aff376-c836-4f20-af14-b30ba139be28","alterId":0,"cipher":"auto","tls":false,"network":"ws"}
   - {"name":"defaultName_29","server":"120.197.85.73","port":3080,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"708de56e-ada7-4bab-86ce-dadd4beabd62"}
 proxy-groups:
   - name: 🚀 节点选择
@@ -49,8 +38,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - FreeSharePro_%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC_1
-      - FreeSharePro_%F0%9F%87%AD%F0%9F%87%B0_HK_%E9%A6%99%E6%B8%AF_2
       - FreeSharePro_🇺🇸_US_美国_3
       - FreeSharePro_🇯🇵_JP_日本_4
       - FreeSharePro_🇨🇳_CN_中国_5
@@ -84,8 +71,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - FreeSharePro_%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC_1
-      - FreeSharePro_%F0%9F%87%AD%F0%9F%87%B0_HK_%E9%A6%99%E6%B8%AF_2
       - FreeSharePro_🇺🇸_US_美国_3
       - FreeSharePro_🇯🇵_JP_日本_4
       - FreeSharePro_🇨🇳_CN_中国_5
@@ -119,8 +104,6 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - FreeSharePro_%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC_1
-      - FreeSharePro_%F0%9F%87%AD%F0%9F%87%B0_HK_%E9%A6%99%E6%B8%AF_2
       - FreeSharePro_🇺🇸_US_美国_3
       - FreeSharePro_🇯🇵_JP_日本_4
       - FreeSharePro_🇨🇳_CN_中国_5
@@ -153,8 +136,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - FreeSharePro_%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC_1
-      - FreeSharePro_%F0%9F%87%AD%F0%9F%87%B0_HK_%E9%A6%99%E6%B8%AF_2
       - FreeSharePro_🇺🇸_US_美国_3
       - FreeSharePro_🇯🇵_JP_日本_4
       - FreeSharePro_🇨🇳_CN_中国_5
@@ -187,8 +168,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - FreeSharePro_%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC_1
-      - FreeSharePro_%F0%9F%87%AD%F0%9F%87%B0_HK_%E9%A6%99%E6%B8%AF_2
       - FreeSharePro_🇺🇸_US_美国_3
       - FreeSharePro_🇯🇵_JP_日本_4
       - FreeSharePro_🇨🇳_CN_中国_5
@@ -221,8 +200,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - FreeSharePro_%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC_1
-      - FreeSharePro_%F0%9F%87%AD%F0%9F%87%B0_HK_%E9%A6%99%E6%B8%AF_2
       - FreeSharePro_🇺🇸_US_美国_3
       - FreeSharePro_🇯🇵_JP_日本_4
       - FreeSharePro_🇨🇳_CN_中国_5
@@ -272,8 +249,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - FreeSharePro_%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC_1
-      - FreeSharePro_%F0%9F%87%AD%F0%9F%87%B0_HK_%E9%A6%99%E6%B8%AF_2
       - FreeSharePro_🇺🇸_US_美国_3
       - FreeSharePro_🇯🇵_JP_日本_4
       - FreeSharePro_🇨🇳_CN_中国_5
