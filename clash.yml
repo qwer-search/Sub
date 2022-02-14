@@ -5,8 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇳_CN_中国_1
-    ","server":"cs2.mimon.cc","port":14623,"type":"trojan","password":"95e4f3dc-6c69-4c67-9394-e01d631b81fc","sni":"mus1.shanjun.me"}
   - {"name":"🇨🇳_CN_中国_2
     ","server":"gz3.mimon.cc","port":24661,"type":"trojan","password":"95e4f3dc-6c69-4c67-9394-e01d631b81fc","sni":"mhk3.shanjun.me"}
   - {"name":"🇨🇳_CN_中国_3
@@ -84,7 +82,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国_1
       - 🇨🇳_CN_中国_2
       - 🇨🇳_CN_中国_3
       - 🇨🇳_CN_中国_4
@@ -127,7 +124,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国_1
       - 🇨🇳_CN_中国_2
       - 🇨🇳_CN_中国_3
       - 🇨🇳_CN_中国_4
@@ -170,7 +166,6 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国_1
       - 🇨🇳_CN_中国_2
       - 🇨🇳_CN_中国_3
       - 🇨🇳_CN_中国_4
@@ -212,7 +207,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国_1
       - 🇨🇳_CN_中国_2
       - 🇨🇳_CN_中国_3
       - 🇨🇳_CN_中国_4
@@ -254,7 +248,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国_1
       - 🇨🇳_CN_中国_2
       - 🇨🇳_CN_中国_3
       - 🇨🇳_CN_中国_4
@@ -296,7 +289,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国_1
       - 🇨🇳_CN_中国_2
       - 🇨🇳_CN_中国_3
       - 🇨🇳_CN_中国_4
@@ -355,7 +347,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国_1
       - 🇨🇳_CN_中国_2
       - 🇨🇳_CN_中国_3
       - 🇨🇳_CN_中国_4
